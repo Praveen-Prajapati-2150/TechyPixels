@@ -1,11 +1,62 @@
 import "./App.css";
-import About from "./pages/About.js";
-import Contact from "./pages/Contact.js";
-import Home from "./pages/Home.js";
-import Work from "./pages/Work.js";
-import Navbar from "./components/Navbar.js";
+import MAbout from "./AboutSection/MAbout.js";
+import Contact from "./Contact/MContact.js";
+import Home from "./HomeSection/Home.js";
+import MOurWork from "./OurWorkSection/MOurWork.js";
+import Navbar from "./components/Navbarr.js";
+import MNavbar from "./components/MNavbar.js";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Services from "./pages/Services";
+import Services from "./Service/MServices";
+import React from "react";
+import PropTypes from "prop-types";
+import { makeStyles } from "@material-ui/core/styles";
+import useScrollTrigger from "@material-ui/core/useScrollTrigger";
+import Fab from "@material-ui/core/Fab";
+import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
+import Zoom from "@material-ui/core/Zoom";
+import ContactUs from "./HomeSection/ContactUs";
+import Footer from "./HomeSection/Footer";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    position: "fixed",
+    bottom: theme.spacing(2),
+    right: theme.spacing(2),
+  },
+}));
+
+function ScrollTop(props) {
+  const { children, window } = props;
+  const classes = useStyles();
+  const trigger = useScrollTrigger({
+    target: window ? window() : undefined,
+    disableHysteresis: true,
+    threshold: 100,
+  });
+
+  const handleClick = (event) => {
+    const anchor = (event.target.ownerDocument || document).querySelector(
+      "#back-to-top"
+    );
+
+    if (anchor) {
+      anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
+
+  return (
+    <Zoom in={trigger}>
+      <div onClick={handleClick} role="presentation" className={classes.root}>
+        {children}
+      </div>
+    </Zoom>
+  );
+}
+
+ScrollTop.propTypes = {
+  children: PropTypes.element.isRequired,
+  window: PropTypes.func,
+};
 
 function App() {
   const showWhereClicked = (e) => {
@@ -17,35 +68,58 @@ function App() {
 
   return (
     <div className="app">
-      <div className="dot"></div>
-      {/* <div className="myContainer" onClick={window.showWhereClicked}>
-                I am 500px tall.
-            </div> */}
+      <React.Fragment>
+        <div id="back-to-top" />
 
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Navbar />
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <Navbar />
-            <About />
-          </Route>
-          <Route exact path="/work">
-            <Navbar />
-            <Work />
-          </Route>
-          <Route exact path="/service">
-            <Navbar />
-            <Services />
-          </Route>
-          <Route exact path="/contact">
-            <Navbar />
-            <Contact />
-          </Route>
-        </Switch>
-      </Router>
+        {/* <Router>
+          <Switch>
+            <Route exact path="/">
+              <MNavbar />
+              <Navbar />
+              <Home />
+            </Route>
+            <Route exact path="/about">
+              <Navbar />
+              <MAbout />
+              <Footer />
+            </Route>
+            <Route exact path="/work">
+              <Navbar />
+              <MOurWork />
+              <Footer />
+            </Route>
+            <Route exact path="/service">
+              <Navbar />
+              <Services />
+              <Footer />
+            </Route>
+            <Route exact path="/contact">
+              <Navbar />
+              <Contact />
+              <Footer />
+            </Route>
+          </Switch>
+        </Router> */}
+
+        <MNavbar/>
+
+        {/* <Toolbar id="back-to-top-anchor" /> */}
+
+        <ScrollTop>
+          <Fab
+            style={{
+              color: "rgb(32, 182, 154)",
+              backgroundColor: "transparent",
+              border: "2px solid rgb(32, 182, 154)",
+            }}
+            color="primary"
+            size="small"
+            aria-label="scroll back to top"
+          >
+            <KeyboardArrowUpIcon />
+          </Fab>
+        </ScrollTop>
+      </React.Fragment>
     </div>
   );
 }

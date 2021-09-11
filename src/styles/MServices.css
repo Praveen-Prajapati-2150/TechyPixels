@@ -1,0 +1,86 @@
+
+
+
+.Mservice{
+    height: 300vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(19, 95, 91); */
+    margin-top: 70px;
+}
+
+.Osection1{
+    height: 350vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+.Osection1 .sub1 > h1{
+    font-size: 90px;
+    font-weight: 600;
+    padding: 20px;
+    padding-left: 120px;
+}
+
+.Osection1 .sub2{
+    /* height: 100vh; */
+    /* width: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Osection1 .sub2 .Ocard{
+    height: 85vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(92, 92, 92, 0.356);
+    margin: 20px;
+}
+
+.Osection1 .sub2 .Ocard .card1 {
+    height: 40vh;
+    width: 100%;
+}
+
+
+.Osection1 .sub2 .Ocard .card1 > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    /* width: 400px; */
+    padding: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.Osection1 .sub2 .Ocard .card2 {
+    height: 45vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+.Osection1 .sub2 .Ocard .card2 > h2{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.Osection1 .sub2 .Ocard .card2 > p{
+    font-size: 20px;
+    /* font-weight: 300; */
+    line-height: 25px;
+    padding-top: 15px;
+}

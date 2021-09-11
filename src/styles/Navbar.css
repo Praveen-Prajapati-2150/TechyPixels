@@ -6,25 +6,37 @@
     box-sizing: border-box;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
 .nav{
     background-color: rgb(255, 255, 255);
+    /* background-color: transparent; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 85px;
+    height: 75px;
     transition-timing-function: ease-in;
     transition: all 0.5s;
     z-index: 1;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.521);
+    box-shadow: 0px 4px 10px rgba(92, 92, 92, 0.349);
+    position: fixed;
 }
 
 .nav__white{
     display: none;
+    /* visibility: none; */
     background-color: red;
     transition-delay: 1s;
     transition-timing-function: ease-in;
     transition: all 0.5s;
+}
+
+.nav__black{
+    background-color: black;
 }
 
 .nav__logo{
@@ -34,11 +46,15 @@
     object-fit: contain;
     cursor: pointer;
     transition: .4s;
-    border: 2px solid black;
+    border: 2px solid rgb(32, 182, 154);
 }
 
 .nav__logo:hover{
     border-radius: 30%;
+}
+
+#nav__links{
+    /* padding-right: 50px; */
 }
 
 .nav__links > a{
@@ -53,18 +69,36 @@
     transition: .4s;
 }
 
+.nav__contact__link > a{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-right: 20px;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding: 10px 25px;
+    transition: .4s;   
+}
+
+.nav__contact__link > a:hover{
+    color: #F7A440;
+    color: rgb(32, 182, 154);
+}
+
 .nav__links > a:hover{
     color: greenyellow;
     color: #F7A440;
+    color: rgb(32, 182, 154);
     /* border-bottom: 1px solid black; */
     /* text-decoration: underline overline wavy blue; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .nav__contact{
     border: 2px solid black;
     transition: 0.5s;
-    border-radius: 2px;
+    /* border-radius: 2px; */
 }
 
 .nav__contact:hover{
