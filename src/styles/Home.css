@@ -4,11 +4,6 @@
     /* overflow: hidden; */
 }
 
-.home__videoBg {
-    /* position: absolute; */
-    /* position: relative; */
-}
-
 .videoClass {
     display: flex;
     /* align-items: flex-end; */
@@ -361,8 +356,6 @@
     /* padding: 10px; */
     padding-left: 50px;
 }
-
-.services__sub1__sub1 {}
 
 .services__sub1__sub1>h1 {
     font-size: 4rem;
