@@ -9,10 +9,12 @@ const ContactUs = () => {
         <h1>
           <span>
 
-          Contact
+          About 
           </span>
-          {/* <span>Us.</span> */}
-          Us.
+          Your
+          {/* <br /> */}
+          <span>Next</span>
+          Project.
         </h1>
       </div>
       <div>

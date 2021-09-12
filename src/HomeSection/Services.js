@@ -13,11 +13,10 @@ const Services = () => {
       <div className="services__sub2">
         <div className="services__sub2__junior">
           <div className="services__sub2__sub1">
-            <article>We bring the whole Schbang!</article>
+            <article>Every project existing in the digital world is a result of a creative idea.</article>
             <p>
-              We're not just advertisers, we're creators. We think Design and
-              Digital. We're technology focused and a production house. We're
-              truely integrated and house all your requirements under one roof.
+            Articulate your creative vision and make the perfect plan of execution with Techy Pixels using Design, Development and Advertising services.
+
             </p>
             <Link to="/service">Explore Our Work</Link>
           </div>

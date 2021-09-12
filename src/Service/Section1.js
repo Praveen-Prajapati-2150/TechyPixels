@@ -7,42 +7,50 @@ import pic5 from "../Assets/pic5.jpg";
 import pic6 from "../Assets/pic6.jpg";
 import pic7 from "../Assets/pic7.jpg";
 
+
+// 1. Website Design
+// 2. Website Development
+// 3. SEO
+// 4. Paid promotion (Facebook, google, insta, Amazon, flipkart)
+// 5. Social media management
+// 6. Branding and content creation
+
 const Section1 = () => {
   const data = [
     {
       id: 1,
       img: pic1,
-      heading: "Integrated Marketing Solutions",
+      heading: "Website Design",
       desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
     },
     {
       id: 2,
       img: pic2,
-      heading: "Digital Content Creation and SEO",
+      heading: "Website Development",
       desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
     },
     {
       id: 3,
       img: pic3,
-      heading: "Video Production and Photography",
+      heading: "SEO",
       desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
     },
     {
       id: 4,
       img: pic4,
-      heading: "Technology and Design",
+      heading: "Paid promotion",
       desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
     },
     {
       id: 5,
       img: pic5,
-      heading: "Influencer Relationship, Celebrity Management & PR",
+      heading: "Social media management",
       desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
     },
     {
       id: 6,
       img: pic6,
-      heading: "Media Planning and Buying",
+      heading: "Branding and content creation",
       desc: "The Activation and Events team is focused on creating memorable events that address client briefs, deliver beyond expectations and leave a lasting impression. Schbang offers a turnkey approach to events from the initial conceptualization, to final production and management.",
     },
     {

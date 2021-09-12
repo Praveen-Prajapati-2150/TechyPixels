@@ -7,6 +7,7 @@ import pic4 from "../Assets/pic4.jpg";
 import pic5 from "../Assets/pic5.jpg";
 import pic6 from "../Assets/pic6.jpg";
 import pic7 from "../Assets/pic7.jpg";
+import pic8 from "../Assets/pic7.jpg";
 
 const Section1 = () => {
   const data = [
@@ -61,12 +62,7 @@ const Section1 = () => {
     <div className="OurWork">
       <section className="section1">
         <div className="sub1">
-          <h1>Our Work
-            {/* <span>Our </span>
-            W
-            <span>o</span>
-            rk */}
-          </h1>
+          <h1>Our Work</h1>
         </div>
         <hr />
         <div className="sub2">

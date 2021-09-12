@@ -6,36 +6,42 @@ import Logo3 from "../Assets/Logo3.png";
 import Logo4 from "../Assets/Logo4.png";
 import Logo5 from "../Assets/Logo5.jpg";
 import Logo6 from "../Assets/Logo6.png";
+import new1 from "../Assets/new1.png";
+import new2 from "../Assets/new2.png";
+import new3 from "../Assets/new3.png";
+import new4 from "../Assets/new4.png";
+import new5 from "../Assets/new5.png";
+import new6 from "../Assets/new6.png";
 
 const Client = () => {
   const imageSizes = [
     {
-      name: Logo1,
+      name: new1,
       width: 200,
       height: 200,
     },
     {
-      name: Logo2,
+      name: new2,
       width: 200,
       height: 200,
     },
     {
-      name: Logo3,
+      name: new3,
       width: 200,
       height: 200,
     },
     {
-      name: Logo4,
+      name: new4,
       width: 200,
       height: 200,
     },
     {
-      name: Logo5,
+      name: new5,
       width: 200,
       height: 200,
     },
     {
-      name: Logo6,
+      name: new6,
       width: 200,
       height: 200,
     },
@@ -52,11 +58,11 @@ const Client = () => {
 
       <div className="clients__sub2">
         <div className="clients__sub2__sub1">
-          <article>We've worked with 100+ clients across the globe.</article>
+          <article>Some friends have made while working together</article>
           <p>
-            We're not just advertisers, we're creators. We think Design and
-            Digital. We're technology focused and a production house. We're
-            truly integrated and house all your requirements under one roof.
+            We are the first-ever client centric ad-tech design company that has
+            developed creative ideas and plans of action for our clients to help
+            their businesses.
           </p>
           <Link to="/contact">Want to become one? Contact Us</Link>
         </div>

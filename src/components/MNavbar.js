@@ -70,13 +70,15 @@ const Header = (props) => {
     <div className={classes.root}>
       <HideOnScroll {...props}>
         <BrowserRouter>
-          <AppBar>
+          <AppBar style={{ backgroundColor: "white" }}>
             <Toolbar>
               <Typography
                 variant="h5"
-                component="p"
+                // component="p"
                 // color="textSecondary"
-                style={{color:"white"}}
+                component={Link}
+                to="/"
+                style={{ color: "black", textDecoration: "none" }}
                 className={classes.title}
               >
                 TechyPixels
@@ -90,7 +92,7 @@ const Header = (props) => {
                     aria-label="menu"
                     onClick={handleMenu}
                   >
-                    <MenuIcon />
+                    <MenuIcon style={{ color: "black" }} />
                   </IconButton>
                   <Menu
                     id="menu-appbar"
@@ -111,29 +113,23 @@ const Header = (props) => {
                       component={Link}
                       to="/"
                     >
-                      <ListItemIcon>
-                        <HomeIcon />
-                      </ListItemIcon>
-                      <Typography  variant="h6"> Home</Typography>
+                      <ListItemIcon>{/* <HomeIcon /> */}</ListItemIcon>
+                      <Typography variant="h6">Home</Typography>
                     </MenuItem>
                     <MenuItem
                       onClick={() => setAnchor(null)}
                       component={Link}
                       to="/about"
                     >
-                      <ListItemIcon>
-                        <SchoolIcon />
-                      </ListItemIcon>
-                      <Typography variant="h6"> About </Typography>
+                      <ListItemIcon>{/* <SchoolIcon /> */}</ListItemIcon>
+                      <Typography variant="h6">About </Typography>
                     </MenuItem>
                     <MenuItem
                       onClick={() => setAnchor(null)}
                       component={Link}
                       to="/work"
                     >
-                      <ListItemIcon>
-                        <PersonIcon />
-                      </ListItemIcon>
+                      <ListItemIcon>{/* <PersonIcon /> */}</ListItemIcon>
                       <Typography variant="h6"> Our Work</Typography>
                     </MenuItem>
                     <MenuItem
@@ -141,9 +137,7 @@ const Header = (props) => {
                       component={Link}
                       to="/service"
                     >
-                      <ListItemIcon>
-                        {/* <BookmarksIcon /> */}
-                      </ListItemIcon>
+                      <ListItemIcon>{/* <BookmarksIcon /> */}</ListItemIcon>
                       <Typography variant="h6"> Service </Typography>
                     </MenuItem>
                     <MenuItem
@@ -151,9 +145,7 @@ const Header = (props) => {
                       component={Link}
                       to="/contact"
                     >
-                      <ListItemIcon>
-                        {/* <BookmarksIcon /> */}
-                      </ListItemIcon>
+                      <ListItemIcon>{/* <BookmarksIcon /> */}</ListItemIcon>
                       <Typography variant="h6"> Contact </Typography>
                     </MenuItem>
                   </Menu>

@@ -15,16 +15,13 @@ const About = () => {
       </div>
       <div className="about__sub2">
         <div className="about__sub2__sub1">
-          <article>
-            The idea of bringing various integrated marketing service needs
-            under one roof is our reason to exist.
-          </article>
+          <article>We help to create strategies, design & development.</article>
           <p>
-            We've put together an Integrated Team of Creators, Designers,
-            Technologists, Media Planners and Film Creators under one roof to
-            deliver your Business the whole Schbang. Our Team of 250 sits across
-            the cities of Mumbai and Bengaluru to serve our clients across
-            categories.
+            We are an Ad-Tech Design Studio. We are an integrated squad of
+            experienced Designers, Creators, Developers and Marketers. We are
+            more inclined towards creativity. We mix our experience and
+            knowledge to create solutions for clients. Our attitude is win-win
+            attitude i.e, Client win we win.
           </p>
           <Link to="/about" target="_blank">
             <span>&gt;</span>Know more about our Company & Services

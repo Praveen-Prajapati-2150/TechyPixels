@@ -5,6 +5,7 @@ import Card from "./Card";
 import Section3 from "./Section3";
 import Section4 from "./Section4";
 import ContactUs from "../HomeSection/ContactUs";
+import Footer from "../HomeSection/Footer";
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
       <Section3 />
       <Section4 />
       <ContactUs />
+      <Footer/>
     </div>
   );
 };

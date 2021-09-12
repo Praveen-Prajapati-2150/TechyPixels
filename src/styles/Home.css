@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     /* overflow: hidden; */
+    margin-top: 64px;
 }
 
 .videoClass {
@@ -680,8 +681,9 @@
 }
 
 .clients__sub2__logo>img {
-    height: 170px;
+    height: 220px;
     width: 210px;
+    width: 220px;
     margin: 30px;
 }
 
@@ -695,7 +697,7 @@
     }
     .clients__sub2__logo>img {
         height: 120px;
-        width: 160px;
+        width: 120px;
         margin: 10px;
     }
     .clients__sub1 {
@@ -875,7 +877,7 @@
 }
 
 .ContactUs__sub1>h1 {
-    font-size: 120px;
+    font-size: 90px;
     font-weight: 800;
     color: white;
     /* color: black; */
@@ -883,7 +885,7 @@
 }
 
 .ContactUs__sub1>h1>span {
-    font-size: 120px;
+    font-size: 90px;
     font-weight: 800;
     color: white;
     color: black;
@@ -931,12 +933,12 @@
         justify-content: center;
     }
     .ContactUs__sub1>h1 {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 800;
         color: white;
     }
     .ContactUs__sub1>h1>span {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 500;
         color: black;
         margin: 10px;
