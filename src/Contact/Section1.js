@@ -24,13 +24,13 @@ const Section1 = () => {
           <p>techyPixel@gmail.com</p>
         </div>
       </div>
-      <div className="sub3">
+      {/* <div className="sub3">
         <h1>We'd love to here from you</h1>
         <p>
           Whether you have questions about feature, trials, pricing, need a
           demo, or anything else, our team is ready to answer all your questions
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

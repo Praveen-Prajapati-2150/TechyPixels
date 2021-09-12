@@ -1,12 +1,14 @@
 import "./App.css";
-import MAbout from "./AboutSection/MAbout.js";
-import Contact from "./Contact/MContact.js";
-import Home from "./HomeSection/Home.js";
-import MOurWork from "./OurWorkSection/MOurWork.js";
-import Navbar from "./components/Navbarr.js";
+// import MAbout from "./AboutSection/MAbout.js";
+// import Contact from "./Contact/MContact.js";
+// import Home from "./HomeSection/Home.js";
+// import MOurWork from "./OurWorkSection/MOurWork.js";
+// import Navbar from "./components/Navbarr.js";
+// import ContactUs from "./HomeSection/ContactUs";
+// import Services from "./Service/MServices";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import Footer from "./HomeSection/Footer";
 import MNavbar from "./components/MNavbar.js";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Services from "./Service/MServices";
 import React from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
@@ -14,8 +16,6 @@ import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Fab from "@material-ui/core/Fab";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import Zoom from "@material-ui/core/Zoom";
-import ContactUs from "./HomeSection/ContactUs";
-import Footer from "./HomeSection/Footer";
 
 const useStyles = makeStyles((theme) => ({
   root: {

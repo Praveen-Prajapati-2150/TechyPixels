@@ -15,7 +15,7 @@ import {
 } from "@material-ui/core";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
 // IMPORTING ICONS
 import MenuIcon from "@material-ui/icons/Menu";
@@ -69,7 +69,7 @@ const Header = (props) => {
   return (
     <div className={classes.root}>
       <HideOnScroll {...props}>
-        <BrowserRouter>
+        <HashRouter>
           <AppBar style={{ backgroundColor: "white" }}>
             <Toolbar>
               <Typography
@@ -81,7 +81,7 @@ const Header = (props) => {
                 style={{ color: "black", textDecoration: "none" }}
                 className={classes.title}
               >
-                TechyPixels
+                Techy Pixels
               </Typography>
               {isMobile ? (
                 <>
@@ -208,7 +208,7 @@ const Header = (props) => {
             <Route exact path="/service" component={Services} />
             <Route exact path="/contact" component={MContact} />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </HideOnScroll>
     </div>
   );
