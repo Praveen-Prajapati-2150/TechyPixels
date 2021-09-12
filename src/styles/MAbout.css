@@ -133,10 +133,11 @@
 }
 
 .CardBox:hover {
-    color: white;
     color: rgb(32, 182, 154);
+    color: white;
+    background-color: #c4c4c4;
     background-color: black;
-    /* background-color: #c4c4c4; */
+    background-color: rgb(51, 51, 51);
 }
 
 .CardBox:hover>h1 {
@@ -235,7 +236,8 @@
     width: 50%;
     height: 70vh;
     display: flex;
-    background-color: seagreen;
+    /* background-color: seagreen; */
+    /* background-color: rgb(32, 182, 154); */
     align-items: center;
     justify-content: center;
 }
@@ -256,8 +258,7 @@
     /* height: auto; */
     width: 50%;
     height: 70vh;
-    background-color: blanchedalmond;
-    background-color: #c4c4c4;
+    /* background-color: #c4c4c4; */
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -297,6 +298,7 @@
         height: 70vh;
         display: flex;
         background-color: seagreen;
+            background-color: rgb(32, 182, 154);
         align-items: center;
         justify-content: center;
     }
@@ -404,8 +406,8 @@
     font-size: 55px;
     color: rgb(255, 238, 0);
     color: rgb(0, 165, 69);
-    color: rgb(32, 182, 154);
     color: seagreen;
+    color: rgb(32, 182, 154);
     margin: 10px;
 }
 
