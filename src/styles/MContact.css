@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: center;
     background-color: lightgrey;
+    /* background-color: pink; */
 }
 
 .Psection1 .sub1{
@@ -94,27 +95,41 @@
 /* ------------------- section 2 --------------------- */
 
 .Psection2{
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: red;
-    background-color: green;
+    /* background-color: red; */
+    background-color: rgb(175, 255, 175);
 }
 
-.Psection2 .sub1{
-    height: 100vh;
+.Psection2 > form{
+    /* height: 120vh; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: pink;
+    /* background-color: pink; */
+}
+
+.Psection2 > form > h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.Psection2 > form .Submit{
+    background-color: rgb(38, 139, 255);
+    color: white;
+    font-size: 16px;
 }
 
 .Psection2 .input{
-    width: 400px;
+    /* width: 400px; */
 }
 

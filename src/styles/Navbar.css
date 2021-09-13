@@ -11,6 +11,23 @@
     flex-direction: column;
 }
 
+/* -------------- MNavbar -------------- */
+
+.Mnavbar__contact{
+    border: 2px solid black;
+    border-radius: none;
+    transition: .1s;
+}
+
+.Mnavbar__contact:hover{
+    border: 2px solid black;
+    border-radius: none;
+    color: white;
+    background-color: black;
+}
+
+/* ------------------------------------- */
+
 .nav{
     background-color: rgb(255, 255, 255);
     /* background-color: transparent; */

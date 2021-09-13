@@ -14,6 +14,8 @@ import {
   ListItemIcon,
 } from "@material-ui/core";
 
+import "../styles/Navbar.css";
+
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
@@ -43,6 +45,11 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+  },
+  contact: {
+    borderRadius: "none",
+    backgroundColor: "white",
+    color: "black",
   },
 }));
 
@@ -146,7 +153,7 @@ const Header = (props) => {
                       to="/contact"
                     >
                       <ListItemIcon>{/* <BookmarksIcon /> */}</ListItemIcon>
-                      <Typography variant="h6"> Contact </Typography>
+                      <Typography variant="h6">Contact</Typography>
                     </MenuItem>
                   </Menu>
                 </>
@@ -157,6 +164,7 @@ const Header = (props) => {
                     component={Link}
                     to="/"
                     color="default"
+                    style={{ marginRight: "5px" }}
                   >
                     {/* <HomeIcon /> */}
                     Home
@@ -166,6 +174,7 @@ const Header = (props) => {
                     component={Link}
                     to="/about"
                     color="default"
+                    style={{ marginRight: "5px" }}
                   >
                     {/* <SchoolIcon /> */}
                     About
@@ -175,6 +184,7 @@ const Header = (props) => {
                     component={Link}
                     to="/work"
                     color="default"
+                    style={{ marginRight: "5px" }}
                   >
                     {/* <PersonIcon /> */}
                     Our Work
@@ -184,6 +194,7 @@ const Header = (props) => {
                     component={Link}
                     to="/service"
                     color="default"
+                    style={{ marginRight: "10px" }}
                   >
                     {/* <BookmarksIcon /> */}
                     Services
@@ -193,6 +204,8 @@ const Header = (props) => {
                     component={Link}
                     to="/contact"
                     color="default"
+                    className="Mnavbar__contact"
+                    // className={classes.contact}
                   >
                     {/* <BookmarksIcon /> */}
                     Contact
