@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     box-sizing: border-box;
 }
 
@@ -13,24 +13,25 @@
 
 /* -------------- MNavbar -------------- */
 
-.Mnavbar__contact{
+/* .Mnavbar__contact{
     border: 2px solid black;
+    color: black;
     border-radius: none;
-    transition: .1s;
-}
+    transition: 1s;
+    background-color: none;
+} */
 
-.Mnavbar__contact:hover{
+/* .Mnavbar__contact:hover{
     border: 2px solid black;
-    border-radius: none;
     color: white;
     background-color: black;
-}
+    background: black;
+} */
 
 /* ------------------------------------- */
 
 .nav{
     background-color: rgb(255, 255, 255);
-    /* background-color: transparent; */
     display: flex;
     justify-content: space-between;
     align-items: center;

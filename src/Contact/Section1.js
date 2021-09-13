@@ -9,19 +9,20 @@ const Section1 = () => {
       <div className="sub2">
         <div className="sub__1 scard">
           <h1>Become a Client</h1>
-          <p>+91 9757036088</p>
-          <p>techyPixel@gmail.com</p>
+          <p>+91 9761204717</p>
+          <p>+91 9667545781</p>
+          <p>pixelstechy@gmail.com</p>
         </div>
         <div className="sub__2 scard">
           <h1>Press Inquiries</h1>
-          <p>+91 9757036088</p>
-          <p>techyPixel@gmail.com</p>
+          <p>+91 9761204717</p>
+          <p>+91 9667545781</p>
+          <p>Hello@techypixels.com</p>
         </div>
         <div className="sub__3 scard">
-          <h1>Join TechyPixel</h1>
+          <h1>Join Techy Pixels</h1>
           <h2>Delhi</h2>
-          <p>+91 9757036088</p>
-          <p>techyPixel@gmail.com</p>
+          <p>B-13, Mansaram Park, Uttam nagar, Delhi 110059</p>
         </div>
       </div>
       {/* <div className="sub3">

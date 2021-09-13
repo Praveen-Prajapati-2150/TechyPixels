@@ -2,7 +2,7 @@
 
 
 .Mservice{
-    height: 360vh;
+    height: 260vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
 /* ------------------ section 111 ------------------------ */
 
 .Osection1{
-    height: 350vh;
+    height: 250vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,7 @@
     font-weight: 600;
     padding: 20px;
     padding-left: 120px;
+    font-family: var(--h1-style);
 }
 
 .Osection1 .sub2{
@@ -89,6 +90,7 @@
     font-size: 35px;
     font-weight: 300;
     line-height: 45px;
+    font-family: var(--h1-style);
 }
 
 .Osection1 .sub2 .Ocard .card2 > p{
@@ -96,6 +98,7 @@
     /* font-weight: 300; */
     line-height: 25px;
     padding-top: 15px;
+    font-family: var(--p-style);
 }
 
 /* -----------responsive section 1 --------- */
@@ -116,6 +119,7 @@
         font-weight: 600;
         padding: 20px;
         padding-left: 30px;
+        font-size: 60px;
     }
     
     .Osection1 .sub2{
@@ -166,8 +170,10 @@
     
     .Osection1 .sub2 .Ocard .card2 > h2{
         font-size: 35px;
+        font-size: 30px;
         font-weight: 300;
         line-height: 45px;
+        /* font-size: var(--h1--size); */
     }
     
     .Osection1 .sub2 .Ocard .card2 > p{
@@ -175,5 +181,6 @@
         /* font-weight: 300; */
         line-height: 25px;
         padding-top: 15px;
+        font-size: var(--p-size);
     }
 }

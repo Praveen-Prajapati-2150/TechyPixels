@@ -21,10 +21,6 @@ import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 // IMPORTING ICONS
 import MenuIcon from "@material-ui/icons/Menu";
-import HomeIcon from "@material-ui/icons/Home";
-import SchoolIcon from "@material-ui/icons/School";
-import PersonIcon from "@material-ui/icons/Person";
-import BookmarksIcon from "@material-ui/icons/Bookmarks";
 
 // REACT APP IMPORTS
 import Home from "../HomeSection/Home.js";
@@ -32,8 +28,6 @@ import MAbout from "../AboutSection/MAbout.js";
 import MOurWork from "../OurWorkSection/MOurWork.js";
 import Services from "../Service/MServices";
 import MContact from "../Contact/MContact.js";
-import Navbar from "../components/Navbarr.js";
-import MNavbar from "../components/MNavbar.js";
 
 // LOCAL-STYLING
 const useStyles = makeStyles((theme) => ({
@@ -47,9 +41,15 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   contact: {
-    borderRadius: "none",
     backgroundColor: "white",
     color: "black",
+    border: "2px solid black",
+    transition: "0.7s",
+    "&:hover": {
+      backgroundColor: "black",
+      color: "white",
+      border: "2px solid black",
+    },
   },
 }));
 
@@ -120,7 +120,6 @@ const Header = (props) => {
                       component={Link}
                       to="/"
                     >
-                      <ListItemIcon>{/* <HomeIcon /> */}</ListItemIcon>
                       <Typography variant="h6">Home</Typography>
                     </MenuItem>
                     <MenuItem
@@ -128,7 +127,6 @@ const Header = (props) => {
                       component={Link}
                       to="/about"
                     >
-                      <ListItemIcon>{/* <SchoolIcon /> */}</ListItemIcon>
                       <Typography variant="h6">About </Typography>
                     </MenuItem>
                     <MenuItem
@@ -136,7 +134,6 @@ const Header = (props) => {
                       component={Link}
                       to="/work"
                     >
-                      <ListItemIcon>{/* <PersonIcon /> */}</ListItemIcon>
                       <Typography variant="h6"> Our Work</Typography>
                     </MenuItem>
                     <MenuItem
@@ -144,7 +141,6 @@ const Header = (props) => {
                       component={Link}
                       to="/service"
                     >
-                      <ListItemIcon>{/* <BookmarksIcon /> */}</ListItemIcon>
                       <Typography variant="h6"> Service </Typography>
                     </MenuItem>
                     <MenuItem
@@ -152,7 +148,6 @@ const Header = (props) => {
                       component={Link}
                       to="/contact"
                     >
-                      <ListItemIcon>{/* <BookmarksIcon /> */}</ListItemIcon>
                       <Typography variant="h6">Contact</Typography>
                     </MenuItem>
                   </Menu>
@@ -164,9 +159,8 @@ const Header = (props) => {
                     component={Link}
                     to="/"
                     color="default"
-                    style={{ marginRight: "5px" }}
+                    style={{ marginRight: "8px" }}
                   >
-                    {/* <HomeIcon /> */}
                     Home
                   </Button>
                   <Button
@@ -174,9 +168,8 @@ const Header = (props) => {
                     component={Link}
                     to="/about"
                     color="default"
-                    style={{ marginRight: "5px" }}
+                    style={{ marginRight: "8px" }}
                   >
-                    {/* <SchoolIcon /> */}
                     About
                   </Button>
                   <Button
@@ -184,9 +177,8 @@ const Header = (props) => {
                     component={Link}
                     to="/work"
                     color="default"
-                    style={{ marginRight: "5px" }}
+                    style={{ marginRight: "8px" }}
                   >
-                    {/* <PersonIcon /> */}
                     Our Work
                   </Button>
                   <Button
@@ -194,9 +186,8 @@ const Header = (props) => {
                     component={Link}
                     to="/service"
                     color="default"
-                    style={{ marginRight: "10px" }}
+                    style={{ marginRight: "13px" }}
                   >
-                    {/* <BookmarksIcon /> */}
                     Services
                   </Button>
                   <Button
@@ -204,10 +195,10 @@ const Header = (props) => {
                     component={Link}
                     to="/contact"
                     color="default"
-                    className="Mnavbar__contact"
-                    // className={classes.contact}
+                    // className="Mnavbar__contact"
+
+                    className={classes.contact}
                   >
-                    {/* <BookmarksIcon /> */}
                     Contact
                   </Button>
                 </div>

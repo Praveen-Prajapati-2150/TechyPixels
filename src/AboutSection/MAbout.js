@@ -12,7 +12,7 @@ const About = () => {
     <div className="Mabout">
       <Heading1 />
 
-      <Card />
+      {/* <Card /> */}
       
 
       <Section3 />

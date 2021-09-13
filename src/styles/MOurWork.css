@@ -51,16 +51,10 @@
     font-size: 90px;
     font-weight: 600;
     padding-left: 190px;
+    font-family: var(--h1-style);
 }
 
-.OurWork .section1 .sub1>h1 >span {
-    color: rgb(255, 255, 255);
-    font-size: 90px;
-    font-weight: 600;
-    text-shadow: -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0);
-    text-shadow: -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
-    
-}
+
 
 .OurWork .section1 .sub2 {
     /* height: 90vh; */
@@ -124,12 +118,14 @@
 .sub2 .card .info>h1 {
     margin: 0px;
     color: white;
+    font-family: var(--h1-style);
 }
 
 .sub2 .card .info>p {
     letter-spacing: 1px;
     font-size: 15px;
     margin-top: 8px;
+    font-family: var(--p-style);
 }
 
 /* ---------------- Responsive section 111 ----------- */
@@ -165,7 +161,8 @@
     
     .OurWork .section1 .sub1>h1 {
         color: rgb(0, 0, 0);
-        font-size: 90px;
+        font-size: 60px;
+        /* font-size: var(--h1-size); */
         font-weight: 600;
         padding-left: 50px;
     }
@@ -173,6 +170,8 @@
     .OurWork .section1 .sub1>h1 >span {
         color: rgb(255, 255, 255);
         font-size: 90px;
+        /* font-size: var(--h1-size); */
+
         font-weight: 600;
         text-shadow: -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0);
         text-shadow: -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
@@ -274,6 +273,7 @@
 
 .Msection2 .sub1>article {
     font-size: 38px;
+    font-family: var(--article--style);
 }
 
 .Msection2 .sub2 {
@@ -291,6 +291,7 @@
     font-size: 23px;
     font-weight: 500;
     word-spacing: 1px;
+    font-family: var(--p-style);
 }
 
 @media only screen and (max-width: 750px) {
@@ -314,6 +315,7 @@
     }
     .Msection2 .sub1>article {
         font-size: 38px;
+        font-size: var(--article-size);
     }
     .Msection2 .sub2 {
         height: 40vh;
@@ -330,6 +332,8 @@
         font-size: 23px;
         font-weight: 500;
         word-spacing: 1px;
+        font-size: var(--p-size);
+
     }
 }
 

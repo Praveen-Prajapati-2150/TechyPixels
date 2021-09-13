@@ -75,29 +75,29 @@ export default function BasicTextFields() {
           name="name"
           label="Your Name"
           required
-        />{" "}
+        />
         <br />
-        <TextField
+        {/* <TextField
           className="input"
           id="standard-basic"
           label="Your Designation"
           name="Designation"
-        />{" "}
-        <br />
+        />
+        <br /> */}
         <TextField
           className="input"
           id="standard-basic"
           label="Organization/Company Name"
           name="Organization/Compnay"
-        />{" "}
+        />
         <br />
-        <TextField
+        {/* <TextField
           className="input"
           id="standard-basic"
           label="Industry Type"
           name="Industry Type"
-        />{" "}
-        <br />
+        />
+        <br /> */}
         <FormControl
           className="input"
           className={classes.formControl}
@@ -120,13 +120,13 @@ export default function BasicTextFields() {
           >
             <MenuItem value={10}>Social Media Management</MenuItem>
             <MenuItem value={20}>SEO</MenuItem>
-            <MenuItem value={30}>Tech & Innovation</MenuItem>
-            <MenuItem value={40}>PR Services</MenuItem>
-            <MenuItem value={50}>Logo Creation</MenuItem>
-            <MenuItem value={60}>Website</MenuItem>
-            <MenuItem value={70}>Others</MenuItem>
+            <MenuItem value={30}>Website Design & Deveploment</MenuItem>
+            <MenuItem value={40}>Content Creation</MenuItem>
+            <MenuItem value={50}>Branding</MenuItem>
+            <MenuItem value={60}>Others</MenuItem>
+            {/* <MenuItem value={40}>PR Services</MenuItem> */}
           </Select>
-        </FormControl>{" "}
+        </FormControl>
         <br />
         {/* --------------------- */}
         {/* <MuiPickersUtilsProvider className="input" utils={DateFnsUtils}>
@@ -148,36 +148,36 @@ export default function BasicTextFields() {
         <TextField
           className="input"
           id="standard-basic"
+          label="Mobile Number"
+          required
+          name="Mobile Number"
+        />
+        <br />
+        <TextField
+          className="input"
+          id="standard-basic"
           name="Email"
           label="Your Email"
           required
-        />{" "}
+        />
         <br />
-        <TextField
+        {/* <TextField
           className="input"
           id="standard-basic"
           name="Location"
           label="Location"
           required
-        />{" "}
-        <br />
-        <TextField
-          className="input"
-          id="standard-basic"
-          label="Mobile Number"
-          required
-          name="Mobile Number"
-        />{" "}
-        <br />
+        />
+        <br /> */}
         <TextField
           className="input"
           id="standard-basic"
           name="Your message"
           label="Your Message"
-          required
-        />{" "}
+          
+        />
         <br />
-        <Fab type="submit" className="Submit" variant="extended">
+        <Fab type="submit" className="Submit" variant="extended" >
           {/* <NavigationIcon className={classes.extendedIcon} /> */}
           Submit
         </Fab>

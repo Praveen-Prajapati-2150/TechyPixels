@@ -24,7 +24,7 @@ const About = () => {
             attitude i.e, Client win we win.
           </p>
           <Link to="/about" target="_blank">
-            <span>&gt;</span>Know more about our Company & Services
+            Know more about our Company & Services
           </Link>
         </div>
       </div>

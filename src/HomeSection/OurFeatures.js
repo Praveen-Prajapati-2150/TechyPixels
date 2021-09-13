@@ -1,31 +1,30 @@
 import React from "react";
 import pic1 from "../Assets/pic2.jpg";
+import service2 from "../Assets/service2.jpg"
 
 const OurFeatures = () => {
   return (
     <section className="feature">
       <div className="feature__img">
-        <img src={pic1} alt="" srcset="" />
+        <img src={service2} alt="" srcset="" />
       </div>
       <div className="feature__detail">
-        <h1>Our Features</h1>
+        <h1>Work Domain</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-          consequatur optio. Incidunt dolorum porro tempora nihil eum placeat
-          commodi recusandae.
+          Our dedicated team Deals in these Domains
         </p>
         <div className="feature__topics">
-          <li className="feature__topic">Moder Design</li>
+          <li className="feature__topic">Design</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, esse.
+          Web Design, Illustrations, Graphics, Motion Graphics, Logo Creation, Creative Design.
           </p>
-          <li className="feature__topic">Fully Customized</li>
+          <li className="feature__topic">Development</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, esse.
+          Web Development, Website Maintenence, Android & Ios App Development, 
           </p>
-          <li className="feature__topic">Retina Ready</li>
+          <li className="feature__topic">Branding</li>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, esse.
+          SEO, SMO, Paid Promotions on Google, Facebook, Instagram, Amazon, Flipkart.
           </p>
         </div>
       </div>

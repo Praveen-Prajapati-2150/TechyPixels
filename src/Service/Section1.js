@@ -51,26 +51,26 @@ const Section1 = () => {
       id: 6,
       img: pic6,
       heading: "Branding and content creation",
-      desc: "The Activation and Events team is focused on creating memorable events that address client briefs, deliver beyond expectations and leave a lasting impression. Schbang offers a turnkey approach to events from the initial conceptualization, to final production and management.",
+      desc: "The Activation and Events team is focused on creating memorable events that address client briefs, deliver beyond expectations and leave a lasting .",
     },
-    {
-      id: 7,
-      img: pic7,
-      heading: "Media Planning and Buying",
-      desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
-    },
-    {
-      id: 1,
-      img: pic1,
-      heading: "Media Planning and Buying",
-      desc: "The Activation and Events team is focused on creating memorable events that address client briefs, deliver beyond expectations and leave a lasting impression. Schbang offers a turnkey approach to events from the initial conceptualization, to final production and management.",
-    },
-    {
-      id: 2,
-      img: pic2,
-      heading: "Media Planning and Buying",
-      desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
-    },
+    // {
+    //   id: 7,
+    //   img: pic7,
+    //   heading: "Media Planning and Buying",
+    //   desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
+    // },
+    // {
+    //   id: 1,
+    //   img: pic1,
+    //   heading: "Media Planning and Buying",
+    //   desc: "The Activation and Events team is focused on creating memorable events that address client briefs, deliver beyond expectations and leave a lasting impression. Schbang offers a turnkey approach to events from the initial conceptualization, to final production and management.",
+    // },
+    // {
+    //   id: 2,
+    //   img: pic2,
+    //   heading: "Media Planning and Buying",
+    //   desc: "Technology and Design team comprises of UI/UX designers, coders, developers and web servicing specialists who strive to elevate customer experience with the finesse of design and technology.",
+    // },
   ];
   return (
     <div className="Osection1">

@@ -73,10 +73,10 @@ const Section1 = () => {
                 <img className="card__img" src={user.img} alt="nothing" />
                 <div className="info">
                   <h1>{user.desc}</h1>
-                  <p>
+                  {/* <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Atque, dolor?
-                  </p>
+                  </p> */}
                 </div>
               </div>
             );

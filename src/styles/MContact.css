@@ -1,7 +1,7 @@
 
 
 .MContact{
-    height: 300vh;
+    height: 248vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -27,6 +27,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.Psection1 .sub1>h1{
+    /* font-size: var(--h1-style); */
+    font-size: 40px;
+    font-family: var(--h1-style);
 }
 .Psection1 .sub2{
     height: 40vh;
@@ -54,6 +59,7 @@
     font-weight: 700;
     line-height: 30px;
     color: white;
+    font-family: var(--h1-style);
 }
 
 .Psection1 .sub2 .scard > p{
@@ -61,12 +67,16 @@
     /* padding: 10px; */
     font-weight: 500;
     line-height: 25px;
+    font-family: var(--p-style);
+
 }
 
 .Psection1 .sub2 .sub__3 > h2{
     padding-bottom: 10px;
     font-size: 25px;
     font-weight: 700;
+    font-family: var(--p-style);
+
 }
 
 .Psection1 .sub3 {
@@ -102,7 +112,7 @@
     justify-content: center;
     flex-direction: column;
     /* background-color: red; */
-    background-color: rgb(175, 255, 175);
+    /* background-color: rgb(175, 255, 175); */
 }
 
 .Psection2 > form{
@@ -121,15 +131,18 @@
     align-items: center;
     justify-content: center;
     font-size: 35px;
+    font-family: var(--h1-style);
 }
 
 .Psection2 > form .Submit{
-    background-color: rgb(38, 139, 255);
+    /* background-color: rgb(38, 139, 255); */
+    background-color: black;
     color: white;
     font-size: 16px;
 }
 
 .Psection2 .input{
     /* width: 400px; */
+    /* font-family: var(--p-style); */
 }
 

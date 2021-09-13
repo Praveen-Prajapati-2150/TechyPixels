@@ -10,12 +10,14 @@ const Heading1 = () => {
     <div style={heading} className="heading">
       <div className="sub1">
         <h1>
-          <span>We </span>
-          bring
-          <span> the </span>
-          whole
-          Techy
-          <span className="Pixels">Pixels</span>!
+        A
+          <span> Gamut </span>
+          of Services
+          <span> under </span>
+          One
+          Roof
+          {/* <span className="Pixels">Pixels</span>! */}
+          {/* A Gamut of Services under One Roof */}
         </h1>
       </div>
       {/* <div className="sub2">
