@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "../styles/MOurWork.css";
-import pic1 from "../Assets/pic1.jpg";
-import pic2 from "../Assets/pic2.jpg";
-import pic3 from "../Assets/pic3.jpg";
-import pic4 from "../Assets/pic4.jpg";
-import pic5 from "../Assets/pic5.jpg";
-import pic6 from "../Assets/pic6.jpg";
-import pic7 from "../Assets/pic7.jpg";
-import pic8 from "../Assets/pic7.jpg";
+import pic1 from "../Assets/work1.png";
+import pic2 from "../Assets/work2.png";
+import pic3 from "../Assets/work3.png";
+import pic4 from "../Assets/work4.png";
+import pic5 from "../Assets/work5.png";
+import pic6 from "../Assets/work6.png";
+import pic7 from "../Assets/work7.png";
+import pic8 from "../Assets/work8.png";
+import pic9 from "../Assets/work9.png";
 
 const Section1 = () => {
   const data = [
@@ -48,12 +49,12 @@ const Section1 = () => {
     },
     {
       id: 1,
-      img: pic1,
+      img: pic8,
       desc: "ASUS B9 Light Book",
     },
     {
       id: 2,
-      img: pic2,
+      img: pic9,
       desc: "ASUS B9 Light Book",
     },
   ];

@@ -206,7 +206,7 @@
     
     .sub2 .card:hover>.card__img {
         transform: scale(1.13);
-        -webkit-filter: brightness(60%);
+        -webkit-filter: brightness(50%);
     }
     
     .OurWork .section1 .sub2 .card:hover::before {

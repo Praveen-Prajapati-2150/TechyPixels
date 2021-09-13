@@ -15,9 +15,6 @@ import {
   KeyboardDatePicker,
 } from "@material-ui/pickers";
 import Fab from "@material-ui/core/Fab";
-// import Button from "@material-ui/core/Button";
-// import Icon from "@material-ui/core/Icon";
-// import NavigationIcon from "@material-ui/icons/Navigation";
 import "../styles/MContact.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -65,28 +62,28 @@ export default function BasicTextFields() {
 
 
   return (
-    <div className="Psection2">
-      <form className={classes.root} noValidate autoComplete="off">
+    
+      <form className="Psection2" className={classes.root} noValidate autoComplete="off">
         <h1>
           Have a project? <br />
           Let's make something great!
         </h1>
-        <TextField className="input" id="standard-basic" label="Your Name" />
+        <TextField className="input" id="standard-basic" label="Your Name" /> <br />
         <TextField
           className="input"
           id="standard-basic"
           label="Your Designation"
-        />
+        /> <br />
         <TextField
           className="input"
           id="standard-basic"
           label="Organization/Company Name"
-        />
+        /> <br />
         <TextField
           className="input"
           id="standard-basic"
           label="Industry Type"
-        />
+        /> <br />
         <FormControl className="input" className={classes.formControl}>
           <InputLabel className="input" id="demo-simple-select-label">
             Which service would you like to opt
@@ -126,19 +123,21 @@ export default function BasicTextFields() {
             />
           </Grid>
         </MuiPickersUtilsProvider>
-        <TextField className="input" id="standard-basic" label="Your Email" />
-        <TextField className="input" id="standard-basic" label="Location" />
+        <TextField className="input" id="standard-basic" label="Your Email" /> <br />
+        <TextField className="input" id="standard-basic" label="Location" /> <br />
+
         <TextField
           className="input"
           id="standard-basic"
           label="Mobile Number"
-        />
-        <TextField className="input" id="standard-basic" label="Your Message" />
+        /> <br />
+
+        <TextField className="input" id="standard-basic" label="Your Message" /> <br />
         <Fab variant="extended">
           {/* <NavigationIcon className={classes.extendedIcon} /> */}
           Submit
         </Fab>
       </form>
-    </div>
+    
   );
 }
