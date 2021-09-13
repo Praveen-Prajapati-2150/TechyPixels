@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TechyPixels/static/css/main.91a0e3db.chunk.css",
-    "main.js": "/TechyPixels/static/js/main.19a4922c.chunk.js",
-    "main.js.map": "/TechyPixels/static/js/main.19a4922c.chunk.js.map",
+    "main.css": "/TechyPixels/static/css/main.5e5604f2.chunk.css",
+    "main.js": "/TechyPixels/static/js/main.1f0c9b9d.chunk.js",
+    "main.js.map": "/TechyPixels/static/js/main.1f0c9b9d.chunk.js.map",
     "runtime-main.js": "/TechyPixels/static/js/runtime-main.4e363427.js",
     "runtime-main.js.map": "/TechyPixels/static/js/runtime-main.4e363427.js.map",
     "static/css/2.f497cec7.chunk.css": "/TechyPixels/static/css/2.f497cec7.chunk.css",
-    "static/js/2.4827c1d8.chunk.js": "/TechyPixels/static/js/2.4827c1d8.chunk.js",
-    "static/js/2.4827c1d8.chunk.js.map": "/TechyPixels/static/js/2.4827c1d8.chunk.js.map",
+    "static/js/2.423a0eb1.chunk.js": "/TechyPixels/static/js/2.423a0eb1.chunk.js",
+    "static/js/2.423a0eb1.chunk.js.map": "/TechyPixels/static/js/2.423a0eb1.chunk.js.map",
     "index.html": "/TechyPixels/index.html",
     "static/css/2.f497cec7.chunk.css.map": "/TechyPixels/static/css/2.f497cec7.chunk.css.map",
-    "static/css/main.91a0e3db.chunk.css.map": "/TechyPixels/static/css/main.91a0e3db.chunk.css.map",
-    "static/js/2.4827c1d8.chunk.js.LICENSE.txt": "/TechyPixels/static/js/2.4827c1d8.chunk.js.LICENSE.txt",
+    "static/css/main.5e5604f2.chunk.css.map": "/TechyPixels/static/css/main.5e5604f2.chunk.css.map",
+    "static/js/2.423a0eb1.chunk.js.LICENSE.txt": "/TechyPixels/static/js/2.423a0eb1.chunk.js.LICENSE.txt",
     "static/media/Logo1.b570816b.png": "/TechyPixels/static/media/Logo1.b570816b.png",
     "static/media/Logo2.4b34c3e4.png": "/TechyPixels/static/media/Logo2.4b34c3e4.png",
     "static/media/Logo4.bce67a05.png": "/TechyPixels/static/media/Logo4.bce67a05.png",
@@ -34,13 +34,22 @@
     "static/media/pic6.63c07858.jpg": "/TechyPixels/static/media/pic6.63c07858.jpg",
     "static/media/pic7.3f2fa0e6.jpg": "/TechyPixels/static/media/pic7.3f2fa0e6.jpg",
     "static/media/styles.css": "/TechyPixels/static/media/revicons.e8746a62.woff",
-    "static/media/video.a9dee050.mp4": "/TechyPixels/static/media/video.a9dee050.mp4"
+    "static/media/video.a9dee050.mp4": "/TechyPixels/static/media/video.a9dee050.mp4",
+    "static/media/work1.a637b119.png": "/TechyPixels/static/media/work1.a637b119.png",
+    "static/media/work2.d508103a.png": "/TechyPixels/static/media/work2.d508103a.png",
+    "static/media/work3.08591d4a.png": "/TechyPixels/static/media/work3.08591d4a.png",
+    "static/media/work4.a086df5c.png": "/TechyPixels/static/media/work4.a086df5c.png",
+    "static/media/work5.6340aa0f.png": "/TechyPixels/static/media/work5.6340aa0f.png",
+    "static/media/work6.9bf99907.png": "/TechyPixels/static/media/work6.9bf99907.png",
+    "static/media/work7.b581c77b.png": "/TechyPixels/static/media/work7.b581c77b.png",
+    "static/media/work8.10836d72.png": "/TechyPixels/static/media/work8.10836d72.png",
+    "static/media/work9.0ae8de1d.png": "/TechyPixels/static/media/work9.0ae8de1d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4e363427.js",
     "static/css/2.f497cec7.chunk.css",
-    "static/js/2.4827c1d8.chunk.js",
-    "static/css/main.91a0e3db.chunk.css",
-    "static/js/main.19a4922c.chunk.js"
+    "static/js/2.423a0eb1.chunk.js",
+    "static/css/main.5e5604f2.chunk.css",
+    "static/js/main.1f0c9b9d.chunk.js"
   ]
 }
