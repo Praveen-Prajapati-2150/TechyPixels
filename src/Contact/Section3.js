@@ -1,21 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import "../Assets/MContact.css"
 
 const Contact = () => {
   return (
-    <section className="ContactUs">
-      <div className="ContactUs__sub1">
-        <h6>LET'S TALK</h6>
+    <section className="Contact">
+      <div className="Contact__sub1">
+        {/* <h6>LET'S TALK</h6> */}
         <h1>
-          Explore our
-          <span>website design</span>
+          <span>Explore </span>
+          our
+          <span> website design </span>
           and
-          <span>development portfolios</span>
+          <span> development </span>
+          portfolios
         </h1>
       </div>
       <div>
-        <Link to="/contact">
-          <button className="ContactUs__button">GET IN TOUCH</button>
+        <Link to="/work">
+          <button className="Contact__button">Checkout Our Work</button>
         </Link>
       </div>
     </section>
