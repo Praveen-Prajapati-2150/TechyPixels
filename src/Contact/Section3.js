@@ -6,7 +6,6 @@ const Contact = () => {
   return (
     <section className="Contact">
       <div className="Contact__sub1">
-        {/* <h6>LET'S TALK</h6> */}
         <h1>
           <span>Explore </span>
           our

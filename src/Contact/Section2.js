@@ -14,6 +14,8 @@ import {
   //   KeyboardTimePicker,
   KeyboardDatePicker,
 } from "@material-ui/pickers";
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Fab from "@material-ui/core/Fab";
 import "../styles/MContact.css";
 
@@ -77,13 +79,7 @@ export default function BasicTextFields() {
           required
         />
         <br />
-        {/* <TextField
-          className="input"
-          id="standard-basic"
-          label="Your Designation"
-          name="Designation"
-        />
-        <br /> */}
+
         <TextField
           className="input"
           id="standard-basic"
@@ -91,23 +87,19 @@ export default function BasicTextFields() {
           name="Organization/Compnay"
         />
         <br />
-        {/* <TextField
-          className="input"
-          id="standard-basic"
-          label="Industry Type"
-          name="Industry Type"
-        />
-        <br /> */}
+
         <FormControl
           className="input"
           className={classes.formControl}
           name="service"
           required
+          className="serviceInput"
         >
           <InputLabel
             className="input"
             name="service"
             id="demo-simple-select-label"
+            
           >
             Which service would you like to opt
           </InputLabel>
@@ -116,6 +108,7 @@ export default function BasicTextFields() {
             labelId="demo-simple-select-label"
             id="demo-simple-select"
             value={age}
+            name="service"
             onChange={handleChange}
           >
             <MenuItem value={10}>Social Media Management</MenuItem>
@@ -124,11 +117,9 @@ export default function BasicTextFields() {
             <MenuItem value={40}>Content Creation</MenuItem>
             <MenuItem value={50}>Branding</MenuItem>
             <MenuItem value={60}>Others</MenuItem>
-            {/* <MenuItem value={40}>PR Services</MenuItem> */}
           </Select>
         </FormControl>
         <br />
-        {/* --------------------- */}
         {/* <MuiPickersUtilsProvider className="input" utils={DateFnsUtils}>
             <Grid className="input" container justifyContent="space-around">
               <KeyboardDatePicker
@@ -161,24 +152,15 @@ export default function BasicTextFields() {
           required
         />
         <br />
-        {/* <TextField
-          className="input"
-          id="standard-basic"
-          name="Location"
-          label="Location"
-          required
-        />
-        <br /> */}
+
         <TextField
           className="input"
           id="standard-basic"
           name="Your message"
           label="Your Message"
-          
         />
         <br />
-        <Fab type="submit" className="Submit" variant="extended" >
-          {/* <NavigationIcon className={classes.extendedIcon} /> */}
+        <Fab type="submit" className="Submit" variant="extended">
           Submit
         </Fab>
       </form>
