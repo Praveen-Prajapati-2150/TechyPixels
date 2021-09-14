@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import pic1 from "../Assets/serviceicon1.png"
+import pic2 from "../Assets/serviceicon2.png"
+import pic3 from "../Assets/serviceicon3.png"
+import pic4 from "../Assets/serviceicon4.png"
+import pic5 from "../Assets/serviceicon5.png"
+import pic6 from "../Assets/serviceicon6.png"
 
         // --h1-style: 'Roboto', sans-serif;
         // --article--style: 'Roboto', sans-serif;
@@ -36,42 +42,42 @@ const Services = () => {
           <div className="services__sub2__sub2">
             <div className="services__box1 serviceBox">
               <img
-                src="https://image.flaticon.com/icons/png/512/2693/2693507.png"
+                src={pic2}
                 alt=""
               />
               <h3>UI & UX Design</h3>
             </div>
             <div className="services__box2 serviceBox">
               <img
-                src="https://img-premium.flaticon.com/png/512/2170/premium/2170024.png?token=exp=1631270745~hmac=930b6b1c0ade08b32e8bf48ce406269c"
+              src={pic1}
                 alt=""
               />
               <h3>Web Development</h3>
             </div>
             <div className="services__box3 serviceBox">
               <img
-                src="https://img-premium.flaticon.com/png/512/2816/premium/2816961.png?token=exp=1631270833~hmac=7220e0d2b592c8490ca0a785320e8383"
+              src={pic3}
                 alt=""
               />
               <h3>Social Media Management</h3>
             </div>
             <div className="services__box4 serviceBox">
               <img
-                src="https://image.flaticon.com/icons/png/512/3067/3067260.png"
+              src={pic4}
                 alt=""
               />
               <h3>Paid Promotions</h3>
             </div>
             <div className="services__box5 serviceBox">
               <img
-                src="https://image.flaticon.com/icons/png/512/3004/3004613.png"
+              src={pic5}
                 alt=""
               />
               <h3>SEO</h3>
             </div>
             <div className="services__box6 serviceBox">
               <img
-                src="https://img-premium.flaticon.com/png/512/2537/premium/2537940.png?token=exp=1631271033~hmac=d047c5ce1a8cd37be83fb84e0d37c579"
+              src={pic6}
                 alt=""
               />
               <h3>Branding & Contect Creation</h3>

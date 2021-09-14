@@ -11,17 +11,22 @@ const Section1 = () => {
           <h1>Become a Client</h1>
           <p>+91 9761204717</p>
           <p>+91 9667545781</p>
-          <p>pixelstechy@gmail.com</p>
+          <p>
+            <a target="_blank" href = "mailto: pixelstechy@gmail.com">pixelstechy@gmail.com</a>
+          </p>
+
         </div>
         <div className="sub__2 scard">
           <h1>Press Inquiries</h1>
           <p>+91 9761204717</p>
           <p>+91 9667545781</p>
-          <p>Hello@techypixels.com</p>
+          <p>
+            <a target="_blank" href = "mailto: pixelstechy@gmail.com">pixelstechy@gmail.com</a>
+          </p>
         </div>
         <div className="sub__3 scard">
-          <h1>Join Techy Pixels</h1>
-          <h2>Delhi</h2>
+          <h1>Visit Us</h1>
+          {/* <h2>Delhi</h2> */}
           <p>B-13, Mansaram Park, Uttam nagar, Delhi 110059</p>
         </div>
       </div>

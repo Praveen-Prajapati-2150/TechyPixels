@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
     --h1-style: 'Roboto', sans-serif;
     --article--style: 'Roboto', sans-serif;
     --p-style: 'Poppins', sans-serif;
     --h1-size: 64px;
     --article-size: 35px;
-    --p-size: 20px;
+    --p-size: 16px;
     --a-size: 16px;
 }
 
@@ -24,6 +26,17 @@
     height: 100vh;
     /* overflow: hidden; */
     margin-top: 64px;
+    /* overflow: hidden; */
+}
+
+@media only screen and (max-width: 750px) {
+    .home {
+        /* width: 100%;
+        height: 100vh; */
+        /* overflow: hidden; */
+        /* margin-top: 64px; */
+        /* overflow-x: hidden; */
+    }
 }
 
 .videoClass {
@@ -159,6 +172,8 @@
     color: black;
     padding-top: 35px;
     font-family: var(--p-style);
+    font-size: var(--p-size) !important;
+    font-family: var(--h1-style) !important;
 }
 
 @media only screen and (max-width: 750px) {
@@ -225,6 +240,8 @@
         /* color: violet; */
         color: black;
         padding-top: 35px;
+        font-size: var(--p-size) !important;
+    font-family: var(--h1-style) !important;
     }
 }
 
@@ -287,7 +304,7 @@
 .feature__topics>p {
     color: #888888;
     word-spacing: 2px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     font-size: 20px;
     color: #4e4e4e;
     font-weight: 400;
@@ -297,6 +314,7 @@
 .feature__topics>li {
     font-size: 25px;
     font-family: var(--h1-style);
+    list-style-type: none;
 }
 
 @media only screen and (max-width: 750px) {
@@ -331,7 +349,7 @@
         padding: 30px;
     }
     .feature__detail>h1 {
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 700;
         padding: 20px 0;
         font-family: var(--h1-style);
@@ -353,7 +371,7 @@
     .feature__topics>p {
         color: #888888;
         word-spacing: 2px;
-        padding-left: 25px;
+        /* padding-left: 25px; */
         font-size: 20px;
         color: #4e4e4e;
         font-weight: 400;
@@ -441,6 +459,8 @@
     color: black;
     padding-top: 35px;
     font-family: var(--p-style);
+    font-size: var(--p-size) !important;
+    font-family: var(--h1-style) !important;
 }
 
 .services__sub2__sub2 {
@@ -588,7 +608,9 @@
         color: violet;
         color: black;
         padding-top: 35px;
-        font-size: var(--a-size);
+        /* font-size: var(--a-size); */
+        font-size: var(--p-size) !important;
+    font-family: var(--h1-style) !important;
     }
     .services__sub2__sub2 {
         display: flex;
@@ -661,6 +683,11 @@
     font-family: var(--h1-style);
 }
 
+.clients__sub1__sub1>h4 {
+    /* font-size: 4rem; */
+    font-family: var(--h1-style);
+}
+
 .clients__sub2 {
     display: flex;
     flex-direction: column;
@@ -691,15 +718,17 @@
     font-size: 20px;
     color: #4e4e4e;
     font-weight: 400;
-    font-size: var(--p-size);
-    font-family: var(--a-style);
+    /* font-size: var(--p-size); */
+    font-family: var(--p-style);
 }
 
 .clients__sub2__sub1>a {
     padding-top: 35px;
     color: rgb(0, 0, 0);
-    font-size: var(--a-size);
-    font-family: var(--a-style);
+    /* color: red; */
+    /* font-weight: 500; */
+    font-size: var(--p-size) !important;
+    font-family: var(--h1-style) !important;
 }
 
 .clients__sub2__sub2 {
@@ -778,6 +807,7 @@
     .clients__sub2__sub1>a {
         padding-top: 35px;
         color: rgb(0, 0, 0);
+        font-weight: 500;
         font-size: var(--a-size);
         font-family: var(--a-style);
     }
@@ -979,14 +1009,14 @@
         justify-content: center;
     }
     .ContactUs__sub1>h1 {
-        font-size: 30px;
+        font-size: 27px;
         font-weight: 800;
         color: white;
         padding: 10px;
 
     }
     .ContactUs__sub1>h1>span {
-        font-size: 30px;
+        font-size: 27px;
         font-weight: 500;
         color: black;
         margin: 10px;
@@ -1047,6 +1077,7 @@
         /* font-size: var(--p-size); */
         color: white;
         color: #888888;
-        padding: 10px;
+        padding: 10px 20px;
+        margin: 0 20px;
     }
 }

@@ -8,8 +8,8 @@ const Contact = () => {
       <div className="Contact__sub1">
         <h1>
           <span>Explore </span>
-          our
-          <span> website design </span>
+          our website
+          <span> design </span>
           and
           <span> development </span>
           portfolios

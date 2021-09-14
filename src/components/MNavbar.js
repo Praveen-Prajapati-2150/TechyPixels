@@ -45,10 +45,13 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     border: "2px solid black",
     transition: "0.7s",
+    padding: "6px 20px",
+    borderRadius: "0px",
     "&:hover": {
       backgroundColor: "black",
       color: "white",
       border: "2px solid black",
+      padding: "6px 18px"
     },
   },
 }));

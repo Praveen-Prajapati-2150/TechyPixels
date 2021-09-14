@@ -61,7 +61,7 @@ export default function BasicTextFields() {
     <div className="Psection2">
       <form
         target="_blank"
-        action="https://formsubmit.co/prsmart2150@gmail.com"
+        action="https://formsubmit.co/pixelstechy@gmail.com"
         method="POST"
         className={classes.root}
         noValidate

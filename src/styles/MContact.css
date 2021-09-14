@@ -66,13 +66,14 @@
 }
 
 .Psection1 .sub2 .scard>h1 {
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 20px;
     font-weight: 700;
     line-height: 30px;
     color: white;
     font-family: var(--h1-style);
     color: rgb(26, 116, 99);
+    color: black;
 }
 
 .Psection1 .sub2 .scard>p {
@@ -81,6 +82,15 @@
     font-weight: 500;
     line-height: 25px;
     font-family: var(--p-style);
+}
+
+.Psection1 .sub2 .scard>p >a{
+    font-size: 20px;
+    /* padding: 10px; */
+    font-weight: 500;
+    line-height: 25px;
+    font-family: var(--p-style);
+    color: black;
 }
 
 .Psection1 .sub2 .sub__3>h2 {
