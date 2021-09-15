@@ -37,7 +37,7 @@ const Services = () => {
             Articulate your creative vision and make the perfect plan of execution with Techy Pixels using Design, Development and Advertising services.
 
             </p>
-            <Link to="/service">Explore Our Work</Link>
+            <Link to="/work">Explore Our Work</Link>
           </div>
           <div className="services__sub2__sub2">
             <div className="services__box1 serviceBox">
