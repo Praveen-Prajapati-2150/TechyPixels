@@ -1,10 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import pic1 from "../Assets/pic1.jpg";
-import pic2 from "../Assets/pic2.jpg";
-import pic3 from "../Assets/pic3.jpg";
-import pic4 from "../Assets/pic4.jpg";
+
 
 const Testi = () => {
   const responsive = {

@@ -1,5 +1,4 @@
 import React from "react";
-import pic1 from "../Assets/pic2.jpg";
 import service2 from "../Assets/service2.jpg"
 
 const OurFeatures = () => {

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import pic1 from "../Assets/pic1.jpg";
 // import * as React from "react"
 
 const Section3 = () => {
@@ -19,7 +18,6 @@ const Section3 = () => {
   const colors = [
     "rgb(32, 182, 154)",
     "white",
-    // "black",
   ];
 
   const [color, setColor] = useState(0);
@@ -34,10 +32,9 @@ const Section3 = () => {
     <section className="section3">
       <div className="sub1" style={{ backgroundColor: "black" }}>
         <h1 style={{ color: colors[color] }}>Techy Pixels</h1>
-        {/* <img src={pic1} alt="" /> */}
       </div>
       <div className="sub2">
-        <h1>Techy Pixels</h1>
+        <h1>What We Are</h1>
         <div className="sub2__1">
           <ol>
             <li>

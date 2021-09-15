@@ -5,7 +5,7 @@ const Section2 = () => {
     <div className="Msection2">
       <div className="sub1">
         <article>
-          Check my Top Class Projects, which I created for the Businesses.
+          Check Our Website Projects, which we have created for the Clients.
         </article>
       </div>
       <div className="sub2">

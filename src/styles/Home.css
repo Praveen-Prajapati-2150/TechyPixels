@@ -8,8 +8,8 @@
     --p-style: 'Poppins', sans-serif;
     --h1-size: 64px;
     --article-size: 35px;
-    --p-size: 16px;
-    --a-size: 16px;
+    --p-size: 14px;
+    --a-size: 14px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -44,6 +44,8 @@
     /* align-items: flex-end; */
     justify-content: flex-start;
     z-index: 0;
+    /* height: calc( 100% - 500px); */
+    /* width: 90%; */
 }
 
 @media only screen and (max-width: 750px) {
@@ -194,7 +196,7 @@
         align-items: center;
         justify-content: flex-start;
         padding: 20px;
-        padding-left: 50px;
+        /* padding-left: 50px; */
     }
     .about__sub1__sub1 {
         display: flex;
@@ -553,19 +555,22 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         height: 100%;
         height: auto;
         /* padding: 10px; */
-        padding-left: 50px;
+        /* padding-left: 50px; */
+    }
+    .services__sub1__sub1{
+        padding: 20px;
     }
     .services__sub1__sub1>h1 {
         font-size: 4rem;
         font-size: var(--h1-size);
     }
     .services__sub1__sub1>h4 {
-        padding: 10px 0;
+        /* padding: 10px 0; */
     }
     .services__sub2 {
         display: flex;
@@ -751,7 +756,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 10px 10px;
+        /* margin: 10px 10px; */
     }
     .clients__sub2__logo>img {
         height: 120px;
@@ -762,11 +767,21 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start;
         height: 100%;
         height: auto;
-        padding: 10px;
+        padding: 0 30px;
+    }
+    
+    
+    .clients__sub1__sub1 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* padding-right: 15px; */
     }
     .clients__sub2 {
         display: flex;
@@ -944,10 +959,9 @@
     font-size: 16px;
     color: white;
     letter-spacing: 1.7px;
-    /* width: 100%; */
     color: rgb(32, 182, 154);
-    /* margin: 20px 0 0 30px; */
     font-family: var(--h1-style);
+    padding-left: 20px;
 }
 
 .ContactUs__sub1>h1 {
@@ -981,7 +995,8 @@
     color: white;
     transition: 1s;
     word-spacing: 4px;
-    margin: 10px;
+    /* margin: 20px 10px; */
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -1058,7 +1073,7 @@
     color: white;
     color: #888888;
     font-family: var(--p-style);
-    padding: 10px;
+    padding: 10px 70px;
 }
 
 @media only screen and (max-width: 900px) {

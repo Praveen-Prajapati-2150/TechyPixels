@@ -1,11 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo1 from "../Assets/Logo1.png";
-import Logo2 from "../Assets/Logo2.png";
-import Logo3 from "../Assets/Logo3.png";
-import Logo4 from "../Assets/Logo4.png";
-import Logo5 from "../Assets/Logo5.jpg";
-import Logo6 from "../Assets/Logo6.png";
+
 import new1 from "../Assets/new1.png";
 import new2 from "../Assets/new2.png";
 import new3 from "../Assets/new3.png";
@@ -64,7 +59,9 @@ const Client = () => {
             developed creative ideas and plans of action for our clients to help
             their businesses.
           </p>
-          <Link to="/contact">Want to become one? Contact Us</Link>
+          <Link exact to="/contact">
+            Want to become one? Contact Us
+          </Link>
         </div>
         <div className="clients__sub2__sub2">
           {imageSizes.map((user) => (

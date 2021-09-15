@@ -37,6 +37,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     /* background-color: red; */
 }
 
@@ -44,6 +45,7 @@
     /* font-size: 70px; */
     font-size: var(--h1-size);
     font-family: var(--h1-style);
+    padding: 20px;
 }
 
 .heading .sub1>h1>span {
@@ -52,6 +54,7 @@
     text-shadow: -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0);
     font-size: var(--h1-size);
     font-family: var(--h1-style);
+    /* padding: 20px; */
 }
 
 .heading .sub1 .Pixels {
@@ -422,10 +425,11 @@
     margin: 10px;
 }
 
-.section4 .sub2 .sub2__1, .sub2__2 .sub2Icon>h3 {
+.section4 .sub2 .sub2__1 .sub2Icon>h3, .section4 .sub2 .sub2__2 .sub2Icon>h3 {
     color: #575757;
     color: rgb(0, 0, 0);
     font-family: var(--p-style);
+    font-size: var(--p-size);
 }
 
 /* ---------------responsive of section 4444 */

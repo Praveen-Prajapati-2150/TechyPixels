@@ -26,8 +26,11 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Home from "../HomeSection/Home.js";
 import MAbout from "../AboutSection/MAbout.js";
 import MOurWork from "../OurWorkSection/MOurWork.js";
-import Services from "../Service/MServices";
+import MServices from "../Service/MServices";
 import MContact from "../Contact/MContact.js";
+import MContactSection1 from "../Contact/Section1.js";
+// import mainLogo1 from "../Assets/mainLogo1.png";
+// import mainLogo1svg from "../Assets/mainLogo2";
 
 // LOCAL-STYLING
 const useStyles = makeStyles((theme) => ({
@@ -51,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "black",
       color: "white",
       border: "2px solid black",
-      padding: "6px 18px"
+      padding: "6px 20px",
     },
   },
 }));
@@ -91,7 +94,9 @@ const Header = (props) => {
                 style={{ color: "black", textDecoration: "none" }}
                 className={classes.title}
               >
+                {/* <img style={{height:"80px",widht:"100px",zIndex:"1000", color:"black"}} src={mainLogo1svg} alt="" /> */}
                 Techy Pixels
+                
               </Typography>
               {isMobile ? (
                 <>
@@ -212,7 +217,7 @@ const Header = (props) => {
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={MAbout} />
             <Route exact path="/work" component={MOurWork} />
-            <Route exact path="/service" component={Services} />
+            <Route exact path="/service" component={MServices} />
             <Route exact path="/contact" component={MContact} />
           </Switch>
         </BrowserRouter>

@@ -23,7 +23,7 @@ const About = () => {
             knowledge to create solutions for clients. Our attitude is win-win
             attitude i.e, Client win we win.
           </p>
-          <Link to="/about" target="_blank">
+          <Link to="/about" >
             Know more about our Company & Services
           </Link>
         </div>

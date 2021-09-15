@@ -2,7 +2,6 @@ import React from "react";
 import ComputerIcon from "@material-ui/icons/Computer";
 import MenuBookIcon from "@material-ui/icons/MenuBook";
 import BrushIcon from "@material-ui/icons/Brush";
-// import ThumbsUpDownIcon from '@material-ui/icons/ThumbsUpDown';
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
 import SupervisedUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
 import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";

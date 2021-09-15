@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/MOurWork.css";
 import pic1 from "../Assets/work1.png";
 import pic2 from "../Assets/work2.png";
@@ -15,47 +15,47 @@ const Section1 = () => {
     {
       id: 1,
       img: pic1,
-      desc: "ASUS B9 Light Book",
+      desc: "Graphic Design 'CleanQ'",
     },
     {
       id: 2,
       img: pic2,
-      desc: "ASUS B9 Light Book",
+      desc: "Blender 3d model with adobe photoshop.",
     },
     {
       id: 3,
       img: pic3,
-      desc: "ASUS B9 Light Book",
+      desc: "Burger king impossible whopper.",
     },
     {
       id: 4,
       img: pic4,
-      desc: "ASUS B9 Light Book",
+      desc: "September Forest Design",
     },
     {
       id: 5,
       img: pic5,
-      desc: "ASUS B9 Light Book",
+      desc: "Charmee Cosmetics Design",
     },
     {
       id: 6,
       img: pic6,
-      desc: "ASUS B9 Light Book",
+      desc: "Je Suis Belle Logo Design",
     },
     {
       id: 7,
       img: pic7,
-      desc: "ASUS B9 Light Book",
+      desc: "UI for brand name 'NIKE'",
     },
     {
-      id: 1,
+      id: 8,
       img: pic8,
-      desc: "ASUS B9 Light Book",
+      desc: "Logo Design for 'Nanasi'",
     },
     {
-      id: 2,
+      id: 9,
       img: pic9,
-      desc: "ASUS B9 Light Book",
+      desc: "UI for brand name 'ADIDAS'",
     },
   ];
 

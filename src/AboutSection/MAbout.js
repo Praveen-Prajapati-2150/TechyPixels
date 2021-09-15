@@ -1,7 +1,7 @@
 import React from "react";
 import Heading1 from "./Heading1";
 import "../styles/MAbout.css";
-import Card from "./Card";
+// import Card from "./Card";
 import Section3 from "./Section3";
 import Section4 from "./Section4";
 import ContactUs from "../HomeSection/ContactUs";

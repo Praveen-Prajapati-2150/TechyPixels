@@ -6,10 +6,6 @@ const Video = () => {
   return (
     <div className="videoClass">
       <section className="home__videoBg">
-        {/* <video width="100%" height="calc( 100% - 85px )" autoPlay loop >
-            <source src={bg1} type="video/mp4" />
-            <source src={require("../Assets/bg1.mp4")} type="video/mp4" />
-          </video>  */}
         <video
           loop
           autoPlay
@@ -21,25 +17,42 @@ const Video = () => {
         ></video>
       </section>
       <section className="socialMedia-icon">
-        <Link target="_blank" to="/https://www.instagram.com/techypixels/">
+        <Link
+          target="_blank"
+          to=" https://instagram.com/techypixels
+"
+        >
           <img
             src="https://image.flaticon.com/icons/png/128/2111/2111463.png"
             alt="error 404"
           />
         </Link>
-        <Link target="_blank" to="/www.facebook.com">
+        <Link
+          target="_blank"
+          to="https://www.linkedin.com/company/79881017/admin/
+
+"
+        >
           <img
             src="https://image.flaticon.com/icons/png/128/1409/1409945.png"
             alt="error 404"
           />
         </Link>
-        <Link target="_blank" to="/www.facebook.com">
+        <Link
+          target="_blank"
+          to=" https://www.facebook.com/techypixels
+"
+        >
           <img
-            src="https://image.flaticon.com/icons/png/128/1409/1409937.png"
+            src="https://cdn-icons-png.flaticon.com/512/1312/1312139.png"
             alt="error 404"
           />
         </Link>
-        <Link target="_blank" to="/www.facebook.com">
+        <Link
+          target="_blank"
+          to=" https://wa.link/jm3eul
+"
+        >
           <img
             src="https://image.flaticon.com/icons/png/128/220/220236.png"
             alt="error 404"
