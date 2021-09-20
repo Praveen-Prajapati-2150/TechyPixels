@@ -98,6 +98,7 @@
     line-height: 25px;
     padding-top: 15px;
     font-family: var(--p-style);
+    font-size: var(--p-size);
 }
 
 /* -----------responsive section 1 --------- */

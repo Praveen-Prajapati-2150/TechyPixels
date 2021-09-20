@@ -29,7 +29,7 @@ import MOurWork from "../OurWorkSection/MOurWork.js";
 import MServices from "../Service/MServices";
 import MContact from "../Contact/MContact.js";
 import MContactSection1 from "../Contact/Section1.js";
-// import mainLogo1 from "../Assets/mainLogo1.png";
+import mainLogo from "../Assets/mainLogo3.png";
 // import mainLogo1svg from "../Assets/mainLogo2";
 
 // LOCAL-STYLING
@@ -94,8 +94,8 @@ const Header = (props) => {
                 style={{ color: "black", textDecoration: "none" }}
                 className={classes.title}
               >
-                {/* <img style={{height:"80px",widht:"100px",zIndex:"1000", color:"black"}} src={mainLogo1svg} alt="" /> */}
-                Techy Pixels
+                <img style={{height:"70px",widht:"100px",zIndex:"1000", color:"black"}} src={mainLogo} alt="" />
+                {/* Techy Pixels */}
                 
               </Typography>
               {isMobile ? (

@@ -17,19 +17,19 @@ const Video = () => {
         ></video>
       </section>
       <section className="socialMedia-icon">
-        <Link
+        <a
           target="_blank"
-          to=" https://instagram.com/techypixels
+          href=" https://instagram.com/techypixels
 "
         >
           <img
             src="https://image.flaticon.com/icons/png/128/2111/2111463.png"
             alt="error 404"
           />
-        </Link>
-        <Link
+        </a>
+        <a
           target="_blank"
-          to="https://www.linkedin.com/company/79881017/admin/
+          href="https://www.linkedin.com/company/79881017/admin/
 
 "
         >
@@ -37,27 +37,27 @@ const Video = () => {
             src="https://image.flaticon.com/icons/png/128/1409/1409945.png"
             alt="error 404"
           />
-        </Link>
-        <Link
+        </a>
+        <a
           target="_blank"
-          to=" https://www.facebook.com/techypixels
+          href=" https://www.facebook.com/techypixels
 "
         >
           <img
             src="https://cdn-icons-png.flaticon.com/512/1312/1312139.png"
             alt="error 404"
           />
-        </Link>
-        <Link
+        </a>
+        <a
           target="_blank"
-          to=" https://wa.link/jm3eul
+          href=" https://wa.link/jm3eul
 "
         >
           <img
             src="https://image.flaticon.com/icons/png/128/220/220236.png"
             alt="error 404"
           />
-        </Link>
+        </a>
       </section>
     </div>
   );

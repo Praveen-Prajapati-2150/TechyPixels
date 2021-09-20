@@ -292,6 +292,7 @@
     font-weight: 500;
     word-spacing: 1px;
     font-family: var(--p-style);
+    font-size: var(--p-size);
 }
 
 @media only screen and (max-width: 750px) {

@@ -292,7 +292,7 @@
     color: #888888;
     word-spacing: 2px;
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 18px;
     color: #4e4e4e;
     font-weight: 400;
     
@@ -828,14 +828,14 @@
         color: #4e4e4e;
         font-weight: 400;
         font-size: var(--p-size);
-        font-family: var(--a-style);
+        font-family: var(--p-style);
     }
     .clients__sub2__sub1>a {
         padding-top: 35px;
         color: rgb(0, 0, 0);
         font-weight: 500;
         font-size: var(--a-size);
-        font-family: var(--a-style);
+        font-family: var(--p-style);
     }
 }
 
@@ -1024,11 +1024,12 @@
 
 @media only screen and (max-width: 900px) {
     .ContactUs {
-        height: 40vh;
+        height: 30vh;
         width: 100%;
+        /* height: auto; */
         /* white-space: 100%; */
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         background-color: black;
         flex-direction: column;
@@ -1060,7 +1061,7 @@
         height: 40px;
         font-size: 16px;
         padding: 5px 12px;
-        border: 1px solid white;
+        border: 1px solid rgb(32, 182, 154);
         background-color: black;
         color: white;
         transition: 1s;
