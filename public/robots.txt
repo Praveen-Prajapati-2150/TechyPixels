@@ -1,0 +1,4 @@
+# https://www.techypixels.com/sitemap_index.xml
+
+User-agent: *
+Allow: /
