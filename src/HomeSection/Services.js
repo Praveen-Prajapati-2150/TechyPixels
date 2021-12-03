@@ -25,7 +25,7 @@ const Services = () => {
     <section className="services">
       <div className="services__sub1">
         <div className="services__sub1__sub1">
-          <h4> How we do 😎</h4>
+          <h4> How we do --</h4>
           <h1>Our Services</h1>
         </div>
       </div>

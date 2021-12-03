@@ -46,7 +46,7 @@ const Client = () => {
     <section className="clients">
       <div className="clients__sub1">
         <div className="clients__sub1__sub1">
-          <h4> How we do 😋</h4>
+          <h4> How we do --</h4>
           <h1>Our Clients</h1>
         </div>
       </div>

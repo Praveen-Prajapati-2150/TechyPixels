@@ -14,7 +14,7 @@
 
 @media only screen and (max-width: 750px) {
     :root {
-        --h1-size: 48px;
+        --h1-size: 20px;
         --article-size: 24px;
         --p-size: 16px;
         --a-size: 16px;
@@ -113,7 +113,7 @@
     align-items: center;
     justify-content: flex-start;
     padding: 10px;
-    padding-left: 50px;
+    padding-left: 90px;
 }
 
 .about__sub1__sub1 {
@@ -409,7 +409,7 @@
     height: 100%;
     height: auto;
     /* padding: 10px; */
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .services__sub1__sub1>h1 {
@@ -526,21 +526,21 @@
 }
 
 .serviceBox {
-    height: 255px;
-    min-width: 250px;
+    height: 235px;
+    min-width: 235px;
     border: 1px solid rgba(0, 0, 0, 0.61);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 15px;
-    margin: 10px 20px;
+    margin: 10px 10px;
     background-color: white;
     border-radius: 5px;
 }
 
 .serviceBox>img {
-    height: 120px;
+    height: 90px;
 }
 
 .serviceBox>h3 {
@@ -569,7 +569,7 @@
         height: 100%;
         height: auto;
         /* padding: 10px; */
-        /* padding-left: 50px; */
+        padding-left: 10px;
     }
     .services__sub1__sub1{
         padding: 20px;
@@ -578,9 +578,7 @@
         font-size: 4rem;
         font-size: var(--h1-size);
     }
-    .services__sub1__sub1>h4 {
-        /* padding: 10px 0; */
-    }
+   
     .services__sub2 {
         display: flex;
         align-items: flex-start;
@@ -688,7 +686,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-right: 15px;
+    padding-right: 0px;
 }
 
 .clients__sub1__sub1>h1 {
@@ -758,7 +756,7 @@
     height: 220px;
     width: 210px;
     width: 220px;
-    margin: 30px;
+    margin: 0 30px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -868,8 +866,8 @@
     justify-content: center;
     flex-direction: column;
     height: 50vh;
-    width: 80vh;
-    width: 100%;
+    width: 130vh;
+    /* width: 100%; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@500&display=swap');

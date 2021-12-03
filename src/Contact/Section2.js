@@ -111,12 +111,12 @@ export default function BasicTextFields() {
             name="service"
             onChange={handleChange}
           >
-            <MenuItem value={10}>Social Media Management</MenuItem>
-            <MenuItem value={20}>SEO</MenuItem>
-            <MenuItem value={30}>Website Design & Deveploment</MenuItem>
-            <MenuItem value={40}>Content Creation</MenuItem>
-            <MenuItem value={50}>Branding</MenuItem>
-            <MenuItem value={60}>Others</MenuItem>
+            <MenuItem value="Social Media Management">Social Media Management</MenuItem>
+            <MenuItem value="SEO">SEO</MenuItem>
+            <MenuItem value="Website Design & Deveploment">Website Design & Deveploment</MenuItem>
+            <MenuItem value="Content Creation">Content Creation</MenuItem>
+            <MenuItem value="Branding">Branding</MenuItem>
+            <MenuItem value="Others">Others</MenuItem>
           </Select>
         </FormControl>
         <br />

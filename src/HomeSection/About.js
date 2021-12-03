@@ -6,7 +6,7 @@ const About = () => {
     <section className="about">
       <div className="about__sub1">
         <div className="about__sub1__sub1">
-          <h4>What we do 😀</h4>
+          <h4>What we do --</h4>
           <h1>About Us</h1>
         </div>
         <div className="about__sub1__sub2">

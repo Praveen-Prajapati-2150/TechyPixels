@@ -1,71 +1,155 @@
 .MContact {
-    height: 248vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  height: 248vh;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.MContact .BSection1 {
+  display: flex;
 }
 
 @media only screen and (max-width: 900px) {
-    .MContact {
-        height: 248vh;
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-top: -15px;
-    }
+  .MContact .BSection1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .MContact {
+    height: 248vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+  }
 }
 
 /* ------------- section 1 -------------- */
 
 .Psection1 {
+  height: 130vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  background-color: #ececec;
+}
+
+
+
+.Psection1 .sub2 {
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Psection1 .sub2 .scard {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 65px 0px;
+}
+
+.Psection1 .sub2 .scard > h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: white;
+  font-family: var(--h1-style);
+  color: rgb(26, 116, 99);
+  color: black;
+}
+
+.Psection1 .sub2 .scard > p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: var(--p-style);
+}
+
+.Psection1 .sub2 .scard > p > a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: var(--p-style);
+  color: black;
+}
+
+.Psection1 .sub2 .sub__3 > h2 {
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: var(--p-style);
+}
+
+.Psection1 .sub3 {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(0, 170, 170);
+}
+
+.Psection1 .sub3 > h1 {
+  color: white;
+  font-size: 45px;
+  padding: 20px;
+}
+
+.Psection1 .sub3 > p {
+  color: rgb(228, 228, 228);
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 500px;
+}
+
+/* ------------ responsive section 1 ---------- */
+
+@media only screen and (max-width: 900px) {
+  .Psection1 {
     height: 60vh;
+    height: auto;
     width: 100%;
-    margin-top: 65px;
+    /* margin-top: 65px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: lightgrey;
-    /* background-color: pink; */
-}
-
-.Psection1 .sub1 {
-    height: 20vh;
-    width: 100%;
-    /* background-color: lightskyblue; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Psection1 .sub1>h1 {
-    /* font-size: var(--h1-style); */
-    font-size: 40px;
-    font-family: var(--h1-style);
-}
-
-.Psection1 .sub2 {
-    height: 40vh;
+  }
+  .Psection1 .sub2 {
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: lightseagreen; */
-}
-
-.Psection1 .sub2 .scard {
-    height: 40vh;
-    width: 100%;
+    flex-direction: column;
+  }
+  .Psection1 .sub2 .scard {
+    /* height: 30vh; */
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: flex-start;
     flex-direction: column;
-    /* background-color: rgb(55, 255, 88); */
-}
-
-.Psection1 .sub2 .scard>h1 {
+    /* padding: 20px; */
+  }
+  .Psection1 .sub2 .scard > h1 {
     font-size: 30px;
     padding-bottom: 20px;
     font-weight: 700;
@@ -74,33 +158,21 @@
     font-family: var(--h1-style);
     color: rgb(26, 116, 99);
     color: black;
-}
-
-.Psection1 .sub2 .scard>p {
+  }
+  .Psection1 .sub2 .scard > p {
     font-size: 20px;
-    /* padding: 10px; */
+    font-size: 15px;
     font-weight: 500;
     line-height: 25px;
     font-family: var(--p-style);
-}
-
-.Psection1 .sub2 .scard>p >a{
-    font-size: 20px;
-    /* padding: 10px; */
-    font-weight: 500;
-    line-height: 25px;
-    font-family: var(--p-style);
-    color: black;
-}
-
-.Psection1 .sub2 .sub__3>h2 {
+  }
+  .Psection1 .sub2 .sub__3 > h2 {
     padding-bottom: 10px;
     font-size: 25px;
     font-weight: 700;
     font-family: var(--p-style);
-}
-
-.Psection1 .sub3 {
+  }
+  .Psection1 .sub3 {
     height: 40vh;
     width: 100%;
     display: flex;
@@ -108,332 +180,270 @@
     justify-content: center;
     flex-direction: column;
     background-color: rgb(0, 170, 170);
-}
-
-.Psection1 .sub3>h1 {
+  }
+  .Psection1 .sub3 > h1 {
     color: white;
     font-size: 45px;
     padding: 20px;
-}
-
-.Psection1 .sub3>p {
-    color: rgb(228, 228, 228);
+  }
+  .Psection1 .sub3 > p {
+    color: rgb(0, 170, 170);
     font-size: 30px;
     padding: 10px;
     font-weight: 500px;
-}
-
-/* ------------ responsive section 1 ---------- */
-
-@media only screen and (max-width: 900px) {
-    .Psection1 {
-        height: 60vh;
-        height: auto;
-        width: 100%;
-        margin-top: 65px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: lightgrey;
-        /* background-color: pink; */
-    }
-    .Psection1 .sub1 {
-        height: 20vh;
-        height: auto;
-        width: 100%;
-        /* background-color: lightskyblue; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .Psection1 .sub1>h1 {
-        /* font-size: var(--h1-style); */
-        font-size: 30px;
-        font-family: var(--h1-style);
-        padding: 20px;
-    }
-    .Psection1 .sub2 {
-        height: 40vh;
-        height: auto;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        /* background-color: lightseagreen; */
-    }
-    .Psection1 .sub2 .scard {
-        height: 30vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        justify-content: flex-start;
-        flex-direction: column;
-        /* background-color: rgb(55, 255, 88); */
-        padding: 20px;
-    }
-    .Psection1 .sub2 .scard>h1 {
-        font-size: 30px;
-        padding-bottom: 20px;
-        font-weight: 700;
-        line-height: 30px;
-        color: white;
-        font-family: var(--h1-style);
-        color: rgb(26, 116, 99);
-        color: black;
-
-    }
-    .Psection1 .sub2 .scard>p {
-        font-size: 20px;
-        font-size: 15px;
-        /* padding: 10px; */
-        font-weight: 500;
-        line-height: 25px;
-        font-family: var(--p-style);
-    }
-    .Psection1 .sub2 .sub__3>h2 {
-        padding-bottom: 10px;
-        font-size: 25px;
-        font-weight: 700;
-        font-family: var(--p-style);
-    }
-    .Psection1 .sub3 {
-        height: 40vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-color: rgb(0, 170, 170);
-    }
-    .Psection1 .sub3>h1 {
-        color: white;
-        font-size: 45px;
-        padding: 20px;
-    }
-    .Psection1 .sub3>p {
-        color: rgb(228, 228, 228);
-        font-size: 30px;
-        padding: 10px;
-        font-weight: 500px;
-    }
+  }
 }
 
 /* ------------------- section 2 --------------------- */
 
 .Psection2 {
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Psection2 > form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Psection2 > form > h1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-family: var(--h1-style);
+}
+
+.Psection2 > form .Submit {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.Psection2 > form .Submit:hover {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .Psection2 {
     height: 130vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+  }
 
-.Psection2>form {
-    /* height: 120vh; */
+  .Psection2 > form {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+  }
 
-.Psection2>form>h1 {
+  .Psection2 > form .serviceInput {
+    width: 300px;
+  }
+
+  .Psection2 > form > h1 {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 35px;
     font-family: var(--h1-style);
-}
+    padding: 20px;
+  }
 
-.Psection2>form .Submit {
+  .Psection2 > form .Submit {
     background-color: black;
     color: white;
     font-size: 16px;
-}
+    width: 200px;
+  }
 
-.Psection2 .input {
-    /* width: 400px; */
-    /* font-family: var(--p-style); */
-}
-
-@media only screen and (max-width: 900px) {
-    .Psection2 {
-        height: 130vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    
-    .Psection2>form {
-        /* height: 120vh; */
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .Psection2> form .serviceInput{
-        width: 300px;
-    }
-    
-    .Psection2>form>h1 {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 35px;
-        font-family: var(--h1-style);
-        padding: 20px;
-    }
-    
-    .Psection2>form .Submit {
-        background-color: black;
-        color: white;
-        font-size: 16px;
-        width: 200px;
-    }
-    
-    .Psection2 .input {
-        width: 300px;
-        /* padding: 0 20px; */
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* font-family: var(--p-style); */
-    }
+  .Psection2 .input {
+    width: 300px;
+  }
 }
 
 /* ----------------- section 3 --------------- */
 
 .Contact {
-    height: 50vh;
+  height: 50vh;
+  width: 100%;
+  white-space: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.Contact__sub1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Contact__sub1 > h6 {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1.7px;
+  color: orangered;
+  width: 100%;
+  color: rgb(32, 182, 154);
+  /* margin: 20px 0 0 30px; */
+  margin: 10px 50px;
+}
+
+.Contact__sub1 > h1 {
+  font-size: 60px;
+  font-weight: 800;
+  padding: 10px;
+  color: white;
+  margin: 10px 50px;
+  font-family: var(--h1-style);
+  /* color: black; */
+  /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(252, 252, 252)); */
+}
+
+.Contact__sub1 > h1 > span {
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
+  color: rgb(0, 128, 104);
+  color: #c4c4c4;
+  color: black;
+  /* margin: 20px; */
+  font-family: var(--h1-style);
+  text-shadow: -2px -2px 3px #ff0000, 2px 2px 3px #0000ff;
+  text-shadow: 2px -2px 3px #ff0000, -2px 2px 3px #0000ff;
+  text-shadow: -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+}
+
+.Contact__button {
+  width: 300px;
+  height: 60px;
+  font-size: 16px;
+  padding: 14px 35px;
+  border: 2px solid rgb(32, 182, 154);
+  background-color: black;
+  color: white;
+  transition: 1s;
+  word-spacing: 4px;
+  /* margin: 10px 40px; */
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.Contact__button:hover {
+  /* border: rgb(32, 182, 154); */
+  background-color: rgb(255, 255, 255);
+  border: 2px solid white;
+  color: white;
+  color: rgb(0, 0, 0);
+  /* color: rgb(32, 182, 154); */
+}
+
+@media only screen and (max-width: 900px) {
+  .Contact {
+    height: 40vh;
     width: 100%;
     white-space: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-}
-
-.Contact__sub1 {
-    display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-}
-
-.Contact__sub1>h6 {
-    font-size: 16px;
-    color: white;
-    letter-spacing: 1.7px;
-    color: orangered;
-    width: 100%;
-    color: rgb(32, 182, 154);
-    /* margin: 20px 0 0 30px; */
-    margin: 10px 50px;
-}
-
-.Contact__sub1>h1 {
-    font-size: 60px;
+  }
+  .Contact__sub1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Contact__sub1 > h1 {
+    font-size: 25px;
     font-weight: 800;
+    color: white;
     padding: 10px;
-    color: white;
-    margin: 10px 50px;
-    font-family: var(--h1-style);
-    /* color: black; */
-    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(252, 252, 252)); */
-}
-
-.Contact__sub1>h1>span {
-    font-size: 60px;
-    font-weight: 800;
-    color: white;
-    color: rgb(0, 128, 104);
-    color: #c4c4c4;
+  }
+  .Contact__sub1 > h1 > span {
+    font-size: 25px;
+    font-weight: 500;
     color: black;
-    /* margin: 20px; */
-    font-family: var(--h1-style);
-    text-shadow: -2px -2px 3px #FF0000, 2px 2px 3px #0000FF;
-    text-shadow: 2px -2px 3px #FF0000, -2px 2px 3px #0000FF;
-    text-shadow: -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
-}
-
-.Contact__button {
-    width: 300px;
-    height: 60px;
+    /* margin: 10px; */
+    text-shadow: -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+      1px -1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+  }
+  .Contact__sub1 > h6 {
+    margin: 20px 0 0 30px;
+  }
+  .Contact__button {
+    width: 180px;
+    height: 40px;
     font-size: 16px;
-    padding: 14px 35px;
-    border: 2px solid rgb(32, 182, 154);
-    border: 2px solid rgb(32, 182, 154);
+    padding: 5px 12px;
+    border: 1px solid white;
     background-color: black;
     color: white;
-    transition: 0.5s;
+    transition: 1s;
     word-spacing: 4px;
-    /* margin: 10px 40px; */
-    margin-right: 100px;
-    cursor: pointer;
+    margin: 10px;
+    border-radius: 50px;
+  }
 }
 
-.Contact__button:hover {
-    /* background-color: rgb(255, 255, 255); */
-    border-color: rgb(32, 182, 154);
-    border: 2px soild white;
-    color: rgb(0, 0, 0);
-    color: white;
-    color: rgb(32, 182, 154);
+
+/* /////////////////////-- Contact Header --//////////////// */
+
+.Contact__header {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+  background-color: rgb(32, 182, 154);
+}
+
+.Contact__header h1 {
+  font-size: 40px;
+  font-family: var(--h1-style);
+  color: white;
 }
 
 @media only screen and (max-width: 900px) {
-    .Contact {
-        height: 40vh;
+    .Contact__header {
+        height: 20vh;
         width: 100%;
-        white-space: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        flex-direction: column;
-    }
-    .Contact__sub1 {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .Contact__sub1>h1 {
+        margin-top: 65px;
+        background-color: rgb(32, 182, 154);
+      }
+      
+      .Contact__header h1 {
         font-size: 25px;
-        font-weight: 800;
+        font-family: var(--h1-style);
         color: white;
-        padding: 10px;
-    }
-    .Contact__sub1>h1>span {
-        font-size: 25px;
-        font-weight: 500;
-        color: black;
-        /* margin: 10px; */
-        text-shadow: -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
-    }
-    .Contact__sub1>h6 {
-        margin: 20px 0 0 30px;
-    }
-    .Contact__button {
-        width: 180px;
-        height: 40px;
-        font-size: 16px;
-        padding: 5px 12px;
-        border: 1px solid white;
-        background-color: black;
-        color: white;
-        transition: 1s;
-        word-spacing: 4px;
-        margin: 10px;
-        border-radius: 50px;
-    }
+        padding: 20px;
+      }
 }
+
+
+ 

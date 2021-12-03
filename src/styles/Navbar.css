@@ -124,6 +124,19 @@
     color: white;
 }
 
+.navR{
+    color: tomato;
+    height: 50px;
+    width: 50px;
+    margin: 4px 0 -12px;
+    z-index: 1000;
+    color: black;
+}
+
+.nav__rotate{
+    animation: 1s forwards;
+}
+
 
 
 

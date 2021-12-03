@@ -15,6 +15,7 @@ import {
 } from "@material-ui/core";
 
 import "../styles/Navbar.css";
+// import main
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
@@ -29,7 +30,7 @@ import MOurWork from "../OurWorkSection/MOurWork.js";
 import MServices from "../Service/MServices";
 import MContact from "../Contact/MContact.js";
 import MContactSection1 from "../Contact/Section1.js";
-import mainLogo from "../Assets/mainLogo3.png";
+import mainLogo from "../Assets/mainLogo4.png";
 // import mainLogo1svg from "../Assets/mainLogo2";
 
 // LOCAL-STYLING
@@ -73,12 +74,41 @@ function HideOnScroll(props) {
 const Header = (props) => {
   const classes = useStyles();
   const [anchor, setAnchor] = React.useState(null);
+  const [rotate, setRotate] = React.useState(null)
+  var scrollPos = 1;
+  var yPos;
+
+  const transitionNavbar = () => {
+    if (window.scrollY > scrollPos) {
+      // if (yPos > scrollPos) {
+      setRotate(true);
+      // if(anchor === true){
+      //   mainLogo
+      // }
+    } else {
+      setRotate(false);
+    }
+    yPos = window.scrollY ;
+    scrollPos = window.scrollY;
+
+    console.log(window.scroolY);
+    console.log(scrollPos);
+    console.log(yPos)
+  };
+
   const open = Boolean(anchor);
   const theme = useTheme();
+
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const handleMenu = (event) => {
     setAnchor(event.currentTarget);
   };
+
+  React.useEffect(() => {
+    window.addEventListener("scroll", transitionNavbar);
+    return () => window.removeEventListener("scroll", transitionNavbar);
+  }, []);
+
   return (
     <div className={classes.root}>
       <HideOnScroll {...props}>
@@ -94,9 +124,19 @@ const Header = (props) => {
                 style={{ color: "black", textDecoration: "none" }}
                 className={classes.title}
               >
-                <img style={{height:"70px",widht:"100px",zIndex:"1000", color:"black"}} src={mainLogo} alt="" />
+                <img
+                  className={`navR ${rotate && "nav__rotate "}`}
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    margin: "4px 0 0 -12px",
+                    zIndex: "1000",
+                    color: "black",
+                  }}
+                  src={mainLogo}
+                  alt="nothing"
+                />
                 {/* Techy Pixels */}
-                
               </Typography>
               {isMobile ? (
                 <>
